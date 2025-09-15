@@ -1,0 +1,4 @@
+opencv-python
+adafruit-circuitpython-lis3dh
+adafruit-blinka
+gpiozero
