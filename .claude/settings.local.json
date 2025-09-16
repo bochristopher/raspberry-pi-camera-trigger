@@ -5,7 +5,12 @@
       "Bash(git add:*)",
       "Bash(sudo apt:*)",
       "Bash(sudo apt upgrade:*)",
-      "Bash(chmod:*)"
+      "Bash(chmod:*)",
+      "Bash(git push:*)",
+      "Bash(source:*)",
+      "Bash(pip install:*)",
+      "Bash(python:*)",
+      "Bash(timeout:*)"
     ],
     "deny": [],
     "ask": []

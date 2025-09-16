@@ -111,21 +111,26 @@ class CameraTriggerApp:
     def run(self) -> int:
         """Run the main application"""
         try:
+            print("DEBUG: Creating directories...")
             # Create directories
             create_directories(self.config)
 
+            print("DEBUG: Creating trigger system...")
             # Initialize trigger system
             self.trigger_system = CameraTriggerSystem(self.config)
 
+            print("DEBUG: Initializing trigger system...")
             if not self.trigger_system.initialize():
                 logging.error("Failed to initialize trigger system")
                 return 1
 
+            print("DEBUG: Starting trigger system...")
             # Start the system
             if not self.trigger_system.start():
                 logging.error("Failed to start trigger system")
                 return 1
 
+            print("DEBUG: System started successfully - entering main loop")
             logging.info("Camera trigger system is running. Press Ctrl+C to stop.")
 
             # Main loop
@@ -135,6 +140,7 @@ class CameraTriggerApp:
                     import time
                     time.sleep(30)
 
+                    print("DEBUG: Periodic health check...")
                     if self.trigger_system:
                         status = self.trigger_system.get_status()
                         if not status['hardware']['camera_connected']:
@@ -143,18 +149,25 @@ class CameraTriggerApp:
                             logging.warning("IMU disconnected")
 
                 except KeyboardInterrupt:
+                    print("DEBUG: KeyboardInterrupt received")
                     self._shutdown_requested = True
                 except Exception as e:
                     logging.error(f"Error in main loop: {e}")
+                    print(f"DEBUG: Main loop error: {e}")
 
+            print("DEBUG: Shutting down...")
             logging.info("Shutting down...")
             return 0
 
         except Exception as e:
+            print(f"DEBUG: Application error: {e}")
             logging.error(f"Application error: {e}")
+            import traceback
+            traceback.print_exc()
             return 1
 
         finally:
+            print("DEBUG: Cleanup...")
             if self.trigger_system:
                 self.trigger_system.cleanup()
 
@@ -305,14 +318,19 @@ def main():
             logging.info("Running in DRY-RUN mode with mock hardware")
 
         # Create application
+        print("DEBUG: Creating CameraTriggerApp...")
         app = CameraTriggerApp(config)
 
         if args.status:
+            print("DEBUG: Running status check...")
             return app.status()
         elif args.verify_log:
+            print("DEBUG: Running log verification...")
             return app.verify_log(args.verify_log)
         else:
+            print("DEBUG: Setting up signal handlers...")
             app.setup_signal_handlers()
+            print("DEBUG: Starting application...")
             return app.run()
 
     except Exception as e:

@@ -63,23 +63,14 @@ class LIS3DHSensor:
                               time_limit: int = 10,
                               time_latency: int = 20,
                               time_window: int = 255) -> bool:
-        """Configure single tap interrupt detection"""
+        """Configure motion-based interrupt detection (fallback for tap)"""
         try:
-            if hasattr(self._sensor, 'set_tap'):
-                self._sensor.set_tap(
-                    adafruit_lis3dh.TAP_SINGLE,
-                    threshold=threshold,
-                    time_limit=time_limit,
-                    time_latency=time_latency,
-                    time_window=time_window
-                )
-                logger.info(f"Tap interrupt configured with threshold {threshold}")
-                return True
-            else:
-                logger.warning("set_tap method not available in this library version")
-                return False
+            # This library version doesn't support hardware tap interrupts
+            # We'll use motion threshold detection instead
+            logger.info(f"Using motion threshold detection (threshold not directly configurable)")
+            return True
         except Exception as e:
-            logger.error(f"Failed to configure tap interrupt: {e}")
+            logger.error(f"Failed to configure motion detection: {e}")
             return False
 
     def set_interrupt_callback(self, callback: Callable[[], None]):
@@ -87,6 +78,53 @@ class LIS3DHSensor:
         self._interrupt_callback = callback
         if self._interrupt_button:
             self._interrupt_button.when_pressed = self._handle_interrupt
+
+    def start_motion_monitoring(self, threshold: float = 2.0):
+        """Start monitoring for motion above threshold (for testing without hardware interrupts)"""
+        import threading
+        import time
+
+        def monitor_motion():
+            last_reading = None
+            count = 0
+            while True:
+                try:
+                    if not self._sensor:
+                        break
+
+                    current = self.read_acceleration()
+                    count += 1
+
+                    # Debug: Print readings every 20 samples (~2 seconds)
+                    if count % 20 == 0:
+                        print(f"DEBUG: Motion monitor alive - Current: {current[0]:.2f}, {current[1]:.2f}, {current[2]:.2f} [Tap the sensor!]")
+
+                    if last_reading:
+                        # Calculate motion delta
+                        delta = sum(abs(a - b) for a, b in zip(current, last_reading))
+
+                        # Debug: Print when close to threshold
+                        if delta > threshold * 0.3:
+                            print(f"DEBUG: Motion delta: {delta:.2f} (threshold: {threshold}) - Getting close!")
+
+                        if delta > threshold:
+                            print(f"DEBUG: *** MOTION DETECTED *** delta: {delta:.2f}")
+                            logger.info(f"Motion detected (delta: {delta:.2f})")
+                            if self._interrupt_callback:
+                                print("DEBUG: Calling interrupt callback")
+                                self._interrupt_callback()
+                            time.sleep(2)  # Cooldown
+
+                    last_reading = current
+                    time.sleep(0.1)  # Check 10 times per second
+                except Exception as e:
+                    logger.error(f"Motion monitoring error: {e}")
+                    break
+
+        # Start monitoring in background thread
+        self._motion_thread = threading.Thread(target=monitor_motion, daemon=True)
+        self._motion_thread.start()
+        logger.info(f"Motion monitoring started with threshold {threshold}")
 
     def _handle_interrupt(self):
         """Internal interrupt handler"""

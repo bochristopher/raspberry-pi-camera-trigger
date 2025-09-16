@@ -1,0 +1,35 @@
+{
+  "hardware": {
+    "imu_address": "0x18",
+    "imu_interrupt_pin": 17,
+    "atecc_address": "0x60",
+    "atecc_key_slot": 0,
+    "rtc_address": "0x68",
+    "camera_device": "/dev/video0"
+  },
+  "camera": {
+    "width": 1280,
+    "height": 720,
+    "quality": 90,
+    "method": "opencv",
+    "capture_directory": "./wet-test-captures"
+  },
+  "trigger": {
+    "tap_threshold": 60,
+    "tap_time_limit": 10,
+    "tap_time_latency": 20,
+    "tap_time_window": 255
+  },
+  "logging": {
+    "level": "INFO",
+    "file": "./wet-test-logs/system.log",
+    "max_size_mb": 50,
+    "backup_count": 5,
+    "provenance_log": "./wet-test-logs/provenance.jsonl"
+  },
+  "service": {
+    "user": "camera-trigger",
+    "group": "camera-trigger",
+    "working_directory": "/opt/camera-trigger"
+  }
+}

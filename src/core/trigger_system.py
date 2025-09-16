@@ -155,6 +155,10 @@ class CameraTriggerSystem:
                 import threading
                 threading.Thread(target=delayed_test, daemon=True).start()
 
+            # For real hardware, start motion monitoring as fallback
+            elif not self.dry_run and hasattr(self.imu, 'start_motion_monitoring'):
+                self.imu.start_motion_monitoring(threshold=1.0)  # More sensitive for tap detection
+
         else:
             logger.error("Camera trigger system initialization failed")
 
@@ -163,21 +167,32 @@ class CameraTriggerSystem:
     def start(self) -> bool:
         """Start the trigger system"""
         if not self.running:
+            print("DEBUG: Setting running = True")
             self.running = True
             self.stats['start_time'] = time.time()
 
+            print("DEBUG: Creating startup record...")
             # Log system startup
-            startup_record = {
-                'event': 'system_startup',
-                'timestamp': time.time(),
-                'timestamp_iso': datetime.now().isoformat() + 'Z',
-                'config': self._sanitize_config(self.config),
-                'hardware_info': self._get_hardware_info()
-            }
+            try:
+                startup_record = {
+                    'event': 'system_startup',
+                    'timestamp': time.time(),
+                    'timestamp_iso': datetime.fromtimestamp(time.time()).isoformat() + 'Z',
+                    'config': self._sanitize_config(self.config),
+                    'hardware_info': self._get_hardware_info()
+                }
+                print("DEBUG: Startup record created successfully")
 
-            self.provenance.log_record(startup_record)
-            logger.info("Camera trigger system started")
-            return True
+                print("DEBUG: Logging startup record...")
+                self.provenance.log_record(startup_record)
+                print("DEBUG: Startup record logged successfully")
+                logger.info("Camera trigger system started")
+                return True
+            except Exception as e:
+                print(f"DEBUG: Error creating/logging startup record: {e}")
+                import traceback
+                traceback.print_exc()
+                raise
 
         return False
 
@@ -190,7 +205,7 @@ class CameraTriggerSystem:
             shutdown_record = {
                 'event': 'system_shutdown',
                 'timestamp': time.time(),
-                'timestamp_iso': datetime.now().isoformat() + 'Z',
+                'timestamp_iso': datetime.fromtimestamp(time.time()).isoformat() + 'Z',
                 'stats': self.stats.copy(),
                 'uptime_seconds': time.time() - self.stats['start_time']
             }
@@ -202,18 +217,22 @@ class CameraTriggerSystem:
         """Handle IMU interrupt trigger"""
         with self._trigger_lock:
             if not self.running:
+                print("DEBUG: Trigger called but system not running")
                 return
 
             self.stats['triggers_total'] += 1
             trigger_start = time.time()
 
+            print(f"DEBUG: *** TRIGGER EVENT #{self.stats['triggers_total']} ***")
             logger.info("Trigger event detected")
 
             try:
                 # Capture IMU sample
+                print("DEBUG: Capturing IMU sample...")
                 imu_sample = self.imu.get_sample_with_timestamp()
 
                 # Capture camera frame
+                print("DEBUG: Capturing camera frame...")
                 camera_frame = self.camera.capture_frame(
                     method=self.config.get('camera_method', 'opencv')
                 )
@@ -221,7 +240,10 @@ class CameraTriggerSystem:
                 if camera_frame is None:
                     raise RuntimeError("Camera capture failed")
 
+                print(f"DEBUG: Camera frame captured: {camera_frame['size_bytes']} bytes")
+
                 # Get precise timestamp from RTC
+                print("DEBUG: Getting RTC timestamp...")
                 rtc_timestamp = self.rtc.get_precise_timestamp()
 
                 # Create comprehensive record
@@ -299,12 +321,16 @@ class CameraTriggerSystem:
 
     def _get_hardware_info(self) -> Dict[str, Any]:
         """Get hardware information for logging"""
-        return {
-            'imu_info': self.imu.__dict__.copy() if hasattr(self.imu, '__dict__') else {},
-            'secure_element_info': self.secure_element.get_device_info(),
-            'rtc_info': self.rtc.get_device_info(),
-            'camera_info': self.camera.get_camera_info()
-        }
+        try:
+            return {
+                'imu_connected': self.imu.is_connected(),
+                'secure_element_connected': self.secure_element.is_connected(),
+                'rtc_connected': self.rtc.is_connected(),
+                'camera_connected': self.camera.is_connected()
+            }
+        except Exception as e:
+            logger.error(f"Error getting hardware info: {e}")
+            return {'error': str(e)}
 
     def _sanitize_config(self, config: Dict[str, Any]) -> Dict[str, Any]:
         """Remove sensitive information from config for logging"""
