@@ -161,15 +161,46 @@ cython_debug/
 .idea/
 
 # Project specific
-# Captured images (keep a few samples, ignore the rest)
+# Captured images (keep examples)
 capture_*.jpg
-!capture_1757876616.jpg
-!capture_17578766223.jpg
+capture_*.jpeg
+capture_*.png
+capture_*.bmp
+!examples/sample_*.jpg
+
+# Log files (keep templates)
+*.log
+*.jsonl
+!/examples/*.log
+!/examples/*.jsonl
+
+# Configuration (keep defaults)
+config/production.json
+config/local.json
+config/secrets.json
+
+# Runtime data
+/tmp/
+/run/
+/var/log/camera-trigger/
+/var/lib/camera-trigger/
+
+# Installation artifacts
+/.installed
+
+# Test output
+test_*.jpg
+test_*.png
+mock_*.jpg
+
+# IDE specific
+.vscode/
+*.swp
+*.swo
 
 # Temporary files
 *.tmp
 *.bak
-*.swp
 *~
 
 # OS generated files

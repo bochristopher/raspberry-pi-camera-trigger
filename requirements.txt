@@ -1,4 +1,8 @@
-opencv-python
-adafruit-circuitpython-lis3dh
-adafruit-blinka
-gpiozero
+opencv-python>=4.5.0
+adafruit-circuitpython-lis3dh>=1.1.0
+adafruit-blinka>=8.0.0
+adafruit-circuitpython-ds3231>=2.4.0
+gpiozero>=1.6.0
+cryptography>=3.4.0
+cryptoauthlib>=20220823
+RPi.GPIO>=0.7.0

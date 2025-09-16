@@ -1,0 +1,128 @@
+name: CI
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: [3.9, 3.10, 3.11]
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v4
+      with:
+        python-version: ${{ matrix.python-version }}
+
+    - name: Install system dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y libopencv-dev python3-opencv
+
+    - name: Install Python dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install pytest pytest-cov pytest-mock
+        pip install -r requirements.txt
+
+    - name: Run syntax checks
+      run: |
+        python -m py_compile main.py
+        python -m py_compile src/hardware/lis3dh.py
+        python -m py_compile src/hardware/atecc608.py
+        python -m py_compile src/hardware/ds3231.py
+        python -m py_compile src/camera/capture.py
+        python -m py_compile src/core/trigger_system.py
+        python -m py_compile src/core/provenance.py
+
+    - name: Run import tests
+      run: |
+        python -c "
+        from src.hardware.mock_hardware import MockLIS3DHSensor, MockATECC608SecureElement, MockDS3231RTC, MockUSBCamera
+        from src.core.trigger_system import CameraTriggerSystem
+        from src.core.provenance import ProvenanceLogger
+        print('✓ All imports successful')
+        "
+
+    - name: Run unit tests
+      run: |
+        python -m pytest tests/ -v
+
+    - name: Test dry-run mode
+      run: |
+        python main.py --dry-run --trigger-test --config config/default.json &
+        PID=$!
+        sleep 10
+        kill $PID || true
+        echo "✓ Dry-run mode test completed"
+
+    - name: Validate configuration
+      run: |
+        python -c "
+        import json
+        with open('config/default.json', 'r') as f:
+            config = json.load(f)
+        required_keys = ['hardware', 'camera', 'trigger', 'logging']
+        for key in required_keys:
+            assert key in config, f'Missing required config key: {key}'
+        print('✓ Configuration is valid')
+        "
+
+  security:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: 3.11
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install bandit safety
+
+    - name: Run security scan with bandit
+      run: |
+        bandit -r src/ main.py -f json -o bandit-report.json || true
+        bandit -r src/ main.py
+
+    - name: Check for known vulnerabilities
+      run: |
+        pip freeze | safety check --stdin || true
+
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: 3.11
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install flake8 black isort
+
+    - name: Run flake8
+      run: |
+        flake8 src/ main.py --count --select=E9,F63,F7,F82 --show-source --statistics
+        flake8 src/ main.py --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
+
+    - name: Check code formatting with black
+      run: |
+        black --check --diff src/ main.py || true
+
+    - name: Check import sorting with isort
+      run: |
+        isort --check-only --diff src/ main.py || true

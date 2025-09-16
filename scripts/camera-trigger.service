@@ -1,0 +1,31 @@
+[Unit]
+Description=Raspberry Pi Camera Trigger System with Secure Provenance
+After=network.target
+Wants=network.target
+
+[Service]
+Type=simple
+User=camera-trigger
+Group=camera-trigger
+WorkingDirectory=/opt/camera-trigger
+ExecStart=/opt/camera-trigger/venv/bin/python /opt/camera-trigger/main.py --config /etc/camera-trigger/config.json
+ExecReload=/bin/kill -HUP $MAINPID
+Restart=always
+RestartSec=5
+StandardOutput=journal
+StandardError=journal
+
+# Security settings
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/var/log/camera-trigger /var/lib/camera-trigger /tmp
+CapabilityBoundingSet=CAP_SYS_TIME
+
+# Resource limits
+LimitNOFILE=1024
+LimitNPROC=64
+
+[Install]
+WantedBy=multi-user.target

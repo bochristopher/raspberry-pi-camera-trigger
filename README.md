@@ -1,148 +1,344 @@
-# Raspberry Pi Camera Trigger System
+# Raspberry Pi Camera Trigger System with Secure Provenance
 
-A Python-based camera trigger system for Raspberry Pi that uses a LIS3DH accelerometer sensor to automatically capture photos based on motion detection or tap gestures.
+A production-ready camera trigger system for Raspberry Pi that captures IMU data and camera frames when triggered by LIS3DH accelerometer interrupts, then cryptographically signs and logs the data for secure provenance tracking.
 
 ## Features
 
-- **Motion-triggered photography** - Automatically captures photos when device movement exceeds a configurable threshold
-- **Tap-triggered photography** - Takes photos when the sensor is tapped (using hardware interrupt)
-- **Real-time sensor monitoring** - View live accelerometer data for debugging and calibration
-- **Configurable sensitivity** - Adjust motion thresholds and capture cooldown periods
-- **High-quality image capture** - Uses fswebcam to capture 1280x720 images
+- **Hardware interrupt-driven triggering** - Uses LIS3DH INT1 pin connected to GPIO17 for reliable tap detection
+- **Secure provenance logging** - All events are hashed and signed with ATECC608 P-256 ECDSA for tamper-evident audit trails
+- **Precise timestamping** - DS3231 RTC provides accurate timestamps independent of system time
+- **High-quality image capture** - USB UVC camera support with OpenCV and fswebcam fallback
+- **Production systemd service** - Complete service setup with proper user isolation and security hardening
+- **Comprehensive logging** - Structured JSON logs with automatic rotation
+- **Health monitoring** - Built-in health checks and status reporting
+- **Verification tools** - Cryptographic verification of provenance logs
 
 ## Hardware Requirements
 
-- Raspberry Pi (tested on Pi 4)
-- LIS3DH Triple-Axis Accelerometer sensor
-- USB camera or Raspberry Pi Camera Module
-- Breadboard and jumper wires for connections
+### Required Components
+- Raspberry Pi (Bookworm OS, tested on Pi 4)
+- **LIS3DH** Triple-Axis Accelerometer (I²C address 0x18, INT1 → GPIO17)
+- **ATECC608** Secure Element (I²C address 0x60) for ECDSA P-256 signing
+- **DS3231** Real-Time Clock (I²C address 0x68) for precise timestamps
+- **USB UVC Camera** at /dev/video0 (tested with standard webcams)
 
-### Wiring
+### I²C Bus 1 Wiring
+All devices connect to Raspberry Pi I²C bus 1:
 
-Connect the LIS3DH sensor to your Raspberry Pi:
+**LIS3DH Accelerometer:**
+- VCC → 3.3V (Pin 1)
+- GND → Ground (Pin 6)
+- SCL → GPIO 3 (Pin 5) - I²C Clock
+- SDA → GPIO 2 (Pin 3) - I²C Data
+- INT1 → GPIO 17 (Pin 11) - Interrupt signal
 
-- VCC → 3.3V
-- GND → Ground
-- SCL → GPIO 3 (I2C Clock)
-- SDA → GPIO 2 (I2C Data)
-- INT1 → GPIO 17 (for tap detection)
+**ATECC608 Secure Element:**
+- VCC → 3.3V (Pin 1)
+- GND → Ground (Pin 6)
+- SCL → GPIO 3 (Pin 5) - I²C Clock
+- SDA → GPIO 2 (Pin 3) - I²C Data
 
-## Installation
+**DS3231 RTC:**
+- VCC → 3.3V (Pin 1)
+- GND → Ground (Pin 6)
+- SCL → GPIO 3 (Pin 5) - I²C Clock
+- SDA → GPIO 2 (Pin 3) - I²C Data
 
-1. Clone this repository:
+**USB Camera:**
+- Connect to any USB port
+- Should appear as /dev/video0
+
+## Quick Start
+
+### Automated Installation (Recommended)
+
+1. **Clone the repository:**
 ```bash
-git clone <repository-url>
-cd camera
+git clone https://github.com/your-repo/camera-trigger.git
+cd camera-trigger
 ```
 
-2. Install required Python packages:
+2. **Run the automated setup script:**
 ```bash
-pip install -r requirements.txt
+sudo ./scripts/setup.sh
 ```
 
-3. Enable I2C on your Raspberry Pi:
+This script will:
+- Install system dependencies
+- Create service user and directories
+- Set up Python virtual environment
+- Install Python packages
+- Configure systemd service
+- Enable I²C and GPIO access
+- Set up log rotation
+
+3. **Start the service:**
+```bash
+sudo systemctl start camera-trigger
+```
+
+4. **Check status:**
+```bash
+camera-trigger-status
+```
+
+### Manual Installation
+
+If you prefer manual setup:
+
+1. **Install system dependencies:**
+```bash
+sudo apt update
+sudo apt install -y python3 python3-pip python3-venv i2c-tools fswebcam libopencv-dev python3-opencv
+```
+
+2. **Enable I²C:**
 ```bash
 sudo raspi-config
 # Navigate to Interface Options > I2C > Enable
 ```
 
-4. Install fswebcam for camera capture:
+3. **Create virtual environment:**
 ```bash
-sudo apt-get update
-sudo apt-get install fswebcam
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+```
+
+4. **Test hardware connectivity:**
+```bash
+sudo i2cdetect -y 1
+# Should show devices at 0x18 (LIS3DH), 0x60 (ATECC608), 0x68 (DS3231)
+```
+
+## Configuration
+
+The system uses JSON configuration files. The default configuration is in `config/default.json`:
+
+```json
+{
+  "hardware": {
+    "imu_address": "0x18",
+    "imu_interrupt_pin": 17,
+    "atecc_address": "0x60",
+    "rtc_address": "0x68",
+    "camera_device": "/dev/video0"
+  },
+  "camera": {
+    "width": 1280,
+    "height": 720,
+    "quality": 90,
+    "method": "opencv"
+  },
+  "trigger": {
+    "tap_threshold": 60,
+    "tap_time_limit": 10
+  },
+  "logging": {
+    "level": "INFO",
+    "provenance_log": "/var/log/camera-trigger/provenance.jsonl"
+  }
+}
 ```
 
 ## Usage
 
-### Motion-Triggered Photography
+### Running as a Service (Production)
 
-Captures photos when the sensor detects movement beyond normal gravity:
-
-```bash
-python trigge_photo_motion.py
-```
-
-Configuration options in the script:
-- `DELTA = 1.0` - Motion threshold (m/s² above/below gravity)
-- `COOLDOWN = 2.0` - Minimum seconds between captures
-
-### Tap-Triggered Photography
-
-Takes photos when you tap the sensor:
+The system is designed to run as a systemd service:
 
 ```bash
-python trigger_photo_tap.py
+# Start service
+sudo systemctl start camera-trigger
+
+# Stop service
+sudo systemctl stop camera-trigger
+
+# Check status
+sudo systemctl status camera-trigger
+
+# View logs
+sudo journalctl -u camera-trigger -f
 ```
 
-Configuration options:
-- `threshold=60` - Tap sensitivity (0-127, higher = harder tap required)
-- Hardware interrupt-based for reliable detection
-
-### Sensor Data Monitoring
-
-View real-time accelerometer readings for debugging:
+### Running Manually (Development/Testing)
 
 ```bash
-python lis3dh_read.py
+# Activate virtual environment
+source venv/bin/activate
+
+# Run main application
+python main.py --config config/default.json
+
+# Show status
+python main.py --status
+
+# Verify provenance log
+python main.py --verify-log /var/log/camera-trigger/provenance.jsonl
 ```
 
-Outputs timestamp and X, Y, Z acceleration values.
+### Command Line Tools
 
-## Files
+After installation, these commands are available:
 
-- `trigge_photo_motion.py` - Motion-based photo capture
-- `trigger_photo_tap.py` - Tap-based photo capture
-- `lis3dh_read.py` - Raw sensor data logging
-- `requirements.txt` - Python dependencies
-- `capture_*.jpg` - Sample captured images
+```bash
+# Show system status
+camera-trigger-status
 
-## Configuration
+# Verify provenance log integrity
+camera-trigger-verify [log-file]
+```
 
-### Motion Sensitivity
+## How It Works
 
-Edit `DELTA` in `trigge_photo_motion.py`:
-- Lower values = more sensitive to small movements
-- Higher values = only triggers on larger movements
-- Default: 1.0 m/s²
+1. **Interrupt Detection:** The LIS3DH accelerometer is configured for single-tap detection. When a tap occurs, it asserts the INT1 pin connected to GPIO17.
 
-### Tap Sensitivity
+2. **Data Capture:** On interrupt:
+   - Captures current IMU sample (X, Y, Z acceleration)
+   - Takes camera frame via OpenCV or fswebcam
+   - Records precise timestamp from DS3231 RTC
 
-Edit `threshold` parameter in `trigger_photo_tap.py`:
-- Range: 0-127
-- Lower values = more sensitive to light taps
-- Higher values = requires harder taps
-- Default: 60
+3. **Secure Logging:** Each trigger event creates a comprehensive record:
+   - IMU data with timestamp
+   - Camera frame metadata and hash
+   - RTC timestamp data
+   - Processing time metrics
 
-### Image Quality
+4. **Cryptographic Signing:** The complete record is:
+   - Serialized to JSON
+   - Hashed with SHA-256
+   - Signed with ATECC608 ECDSA P-256
+   - Appended to JSONL provenance log
 
-Both scripts use fswebcam with these settings:
-- Resolution: 1280x720
-- No banner/timestamp overlay
-- Format: JPEG
+5. **Verification:** Records can be cryptographically verified using the public key to ensure data integrity and authenticity.
 
-Modify the `cmd` array in either script to change settings.
+## File Structure
+
+```
+├── src/
+│   ├── hardware/          # Hardware interface modules
+│   │   ├── lis3dh.py     # LIS3DH accelerometer
+│   │   ├── atecc608.py   # ATECC608 secure element
+│   │   └── ds3231.py     # DS3231 RTC
+│   ├── camera/           # Camera capture
+│   │   └── capture.py    # USB UVC camera interface
+│   └── core/             # Core system
+│       ├── trigger_system.py  # Main trigger coordinator
+│       └── provenance.py      # Secure logging
+├── config/
+│   └── default.json      # Default configuration
+├── scripts/
+│   ├── setup.sh          # Automated installation
+│   ├── test.sh           # Test runner
+│   └── camera-trigger.service  # Systemd service
+├── tests/                # Unit tests
+├── main.py               # Application entry point
+└── requirements.txt      # Python dependencies
+```
+
+## Testing
+
+Run the test suite to verify functionality:
+
+```bash
+./scripts/test.sh
+```
+
+This runs:
+- Hardware module unit tests
+- System integration tests
+- Syntax validation
+- Import verification
+- Configuration validation
+
+## Monitoring and Maintenance
+
+### Log Files
+
+- **System logs:** `/var/log/camera-trigger/system.log`
+- **Provenance log:** `/var/log/camera-trigger/provenance.jsonl`
+- **Systemd journal:** `journalctl -u camera-trigger`
+
+### Health Monitoring
+
+```bash
+# Check system health
+camera-trigger-status
+
+# Verify recent provenance entries
+camera-trigger-verify
+
+# Monitor live logs
+sudo journalctl -u camera-trigger -f
+```
+
+### Log Rotation
+
+Logs are automatically rotated:
+- System logs: Daily, 30-day retention
+- Provenance logs: Daily, 365-day retention
+
+## Security Features
+
+- **User isolation:** Runs as dedicated `camera-trigger` user
+- **Minimal privileges:** Only required hardware access groups
+- **Tamper-evident logging:** Cryptographic signatures on all records
+- **Hardware security:** ATECC608 secure element for key storage
+- **Systemd hardening:** NoNewPrivileges, ProtectSystem, etc.
 
 ## Troubleshooting
 
-### Sensor Not Detected
-- Check I2C wiring connections
-- Verify I2C is enabled: `sudo i2cdetect -y 1`
-- LIS3DH should appear at address 0x18
+### Hardware Issues
 
-### No Photos Captured
-- Test camera separately: `fswebcam test.jpg`
-- Check motion threshold is appropriate for your use case
-- Verify sensor readings with `lis3dh_read.py`
+1. **Check I²C connectivity:**
+```bash
+sudo i2cdetect -y 1
+```
+Expected devices: 0x18 (LIS3DH), 0x60 (ATECC608), 0x68 (DS3231)
 
-### Tap Detection Not Working
-- Ensure GPIO 17 is connected to INT1 pin
-- Try adjusting tap threshold
-- Check for older library version (fallback to motion mode)
+2. **Test camera:**
+```bash
+fswebcam test.jpg
+```
+
+3. **Verify GPIO access:**
+```bash
+ls -la /dev/gpiochip*
+```
+
+### Software Issues
+
+1. **Check service status:**
+```bash
+sudo systemctl status camera-trigger
+```
+
+2. **View recent logs:**
+```bash
+sudo journalctl -u camera-trigger --since "10 minutes ago"
+```
+
+3. **Test configuration:**
+```bash
+python main.py --config /etc/camera-trigger/config.json --status
+```
+
+### Common Problems
+
+- **Permission denied:** Ensure user is in `i2c`, `video`, `gpio` groups
+- **Camera not found:** Check USB connection and `/dev/video*` devices
+- **I²C errors:** Verify wiring and enable I²C in raspi-config
+- **Service won't start:** Check logs and configuration file syntax
 
 ## License
 
-MIT License - feel free to modify and distribute.
+MIT License - See LICENSE file for details.
 
 ## Contributing
 
-Contributions welcome! Please feel free to submit pull requests or open issues for bugs and feature requests.
+1. Fork the repository
+2. Create a feature branch
+3. Run tests: `./scripts/test.sh`
+4. Submit pull request
+
+For bugs and feature requests, please open an issue.
