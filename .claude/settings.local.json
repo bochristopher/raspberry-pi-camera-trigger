@@ -10,7 +10,18 @@
       "Bash(source:*)",
       "Bash(pip install:*)",
       "Bash(python:*)",
-      "Bash(timeout:*)"
+      "Bash(timeout:*)",
+      "Bash(sudo killall:*)",
+      "Bash(tree:*)",
+      "Bash(npm test)",
+      "Bash(npm install)",
+      "Bash(npm run test:run:*)",
+      "Bash(npm start)",
+      "Bash(curl:*)",
+      "Bash(i2cdetect:*)",
+      "Read(//dev/**)",
+      "Bash(vcgencmd:*)",
+      "Bash(sudo ufw:*)"
     ],
     "deny": [],
     "ask": []

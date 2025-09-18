@@ -1,0 +1,64 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./backend:/app
+      - ../secure_continuous_recording_system.py:/app/secure_continuous_recording_system.py:ro
+      - ./data:/app/data
+      - /dev:/dev
+    devices:
+      - /dev/video0:/dev/video0
+      - /dev/i2c-1:/dev/i2c-1
+    privileged: true
+    environment:
+      - PYTHONPATH=/app
+      - DEBUG=1
+    restart: unless-stopped
+    networks:
+      - provensense
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+    environment:
+      - VITE_API_URL=http://backend:8000
+    depends_on:
+      - backend
+    restart: unless-stopped
+    networks:
+      - provensense
+
+  nginx:
+    image: nginx:alpine
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./ssl:/etc/nginx/ssl:ro
+    depends_on:
+      - backend
+      - frontend
+    restart: unless-stopped
+    networks:
+      - provensense
+
+networks:
+  provensense:
+    driver: bridge
+
+volumes:
+  data:
+    driver: local

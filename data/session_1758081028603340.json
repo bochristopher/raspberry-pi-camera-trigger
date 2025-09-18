@@ -1,0 +1,3559 @@
+{
+  "session_start": 1758081028.6033409,
+  "session_start_iso": "2025-09-16T20:50:28.603341Z",
+  "duration_seconds": 10.0,
+  "photo_interval": 2.0,
+  "photos": [
+    {
+      "timestamp": 1758081028.6033764,
+      "timestamp_iso": "2025-09-16T20:50:28.603376Z",
+      "filename": "capture_1758081028603376.jpg",
+      "filepath": "captures/capture_1758081028603376.jpg",
+      "method": "opencv",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "timestamp": 1758081030.6035616,
+      "timestamp_iso": "2025-09-16T20:50:30.603562Z",
+      "filename": "capture_1758081030603561.jpg",
+      "filepath": "captures/capture_1758081030603561.jpg",
+      "method": "opencv",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "timestamp": 1758081032.6067972,
+      "timestamp_iso": "2025-09-16T20:50:32.606797Z",
+      "filename": "capture_1758081032606797.jpg",
+      "filepath": "captures/capture_1758081032606797.jpg",
+      "method": "opencv",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "timestamp": 1758081034.6113436,
+      "timestamp_iso": "2025-09-16T20:50:34.611344Z",
+      "filename": "capture_1758081034611343.jpg",
+      "filepath": "captures/capture_1758081034611343.jpg",
+      "method": "opencv",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "timestamp": 1758081036.611346,
+      "timestamp_iso": "2025-09-16T20:50:36.611346Z",
+      "filename": "capture_1758081036611346.jpg",
+      "filepath": "captures/capture_1758081036611346.jpg",
+      "method": "opencv",
+      "width": 1280,
+      "height": 720
+    }
+  ],
+  "accelerometer_data": [
+    {
+      "timestamp": 1758081028.703136,
+      "timestamp_iso": "2025-09-16T20:50:28.703136Z",
+      "acceleration_x": 0.22988424908424906,
+      "acceleration_y": 0.09578510378510377,
+      "acceleration_z": 9.770080586080585,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081028.724766,
+      "timestamp_iso": "2025-09-16T20:50:28.724766Z",
+      "acceleration_x": 0.2490412698412698,
+      "acceleration_y": 0.057471062271062266,
+      "acceleration_z": 9.731766544566543,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081028.7462718,
+      "timestamp_iso": "2025-09-16T20:50:28.746272Z",
+      "acceleration_x": 0.2681982905982906,
+      "acceleration_y": 0.07662808302808302,
+      "acceleration_z": 9.750923565323564,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081028.7677562,
+      "timestamp_iso": "2025-09-16T20:50:28.767756Z",
+      "acceleration_x": 0.21072722832722832,
+      "acceleration_y": 0.11494212454212453,
+      "acceleration_z": 9.770080586080585,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081028.789248,
+      "timestamp_iso": "2025-09-16T20:50:28.789248Z",
+      "acceleration_x": 0.2490412698412698,
+      "acceleration_y": 0.11494212454212453,
+      "acceleration_z": 9.712609523809522,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081028.8107355,
+      "timestamp_iso": "2025-09-16T20:50:28.810735Z",
+      "acceleration_x": 0.2681982905982906,
+      "acceleration_y": 0.07662808302808302,
+      "acceleration_z": 9.731766544566543,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081028.8322563,
+      "timestamp_iso": "2025-09-16T20:50:28.832256Z",
+      "acceleration_x": 0.1340991452991453,
+      "acceleration_y": 0.03831404151404151,
+      "acceleration_z": 9.731766544566543,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081028.8537457,
+      "timestamp_iso": "2025-09-16T20:50:28.853746Z",
+      "acceleration_x": 0.11494212454212453,
+      "acceleration_y": 0.057471062271062266,
+      "acceleration_z": 9.731766544566543,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081028.8752594,
+      "timestamp_iso": "2025-09-16T20:50:28.875259Z",
+      "acceleration_x": 0.15325616605616604,
+      "acceleration_y": 0.057471062271062266,
+      "acceleration_z": 9.750923565323564,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081028.8967383,
+      "timestamp_iso": "2025-09-16T20:50:28.896738Z",
+      "acceleration_x": 0.2490412698412698,
+      "acceleration_y": 0.07662808302808302,
+      "acceleration_z": 9.712609523809522,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081028.9182127,
+      "timestamp_iso": "2025-09-16T20:50:28.918213Z",
+      "acceleration_x": 0.21072722832722832,
+      "acceleration_y": 0.07662808302808302,
+      "acceleration_z": 9.674295482295483,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081028.9396875,
+      "timestamp_iso": "2025-09-16T20:50:28.939687Z",
+      "acceleration_x": 0.2490412698412698,
+      "acceleration_y": 0.1340991452991453,
+      "acceleration_z": 9.712609523809522,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081028.9611611,
+      "timestamp_iso": "2025-09-16T20:50:28.961161Z",
+      "acceleration_x": 0.28735531135531134,
+      "acceleration_y": 0.11494212454212453,
+      "acceleration_z": 9.674295482295483,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081028.9826412,
+      "timestamp_iso": "2025-09-16T20:50:28.982641Z",
+      "acceleration_x": 0.21072722832722832,
+      "acceleration_y": 0.09578510378510377,
+      "acceleration_z": 9.731766544566543,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081029.0041144,
+      "timestamp_iso": "2025-09-16T20:50:29.004114Z",
+      "acceleration_x": 0.22988424908424906,
+      "acceleration_y": 0.07662808302808302,
+      "acceleration_z": 9.693452503052503,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081029.0255888,
+      "timestamp_iso": "2025-09-16T20:50:29.025589Z",
+      "acceleration_x": 0.21072722832722832,
+      "acceleration_y": 0.11494212454212453,
+      "acceleration_z": 9.731766544566543,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081029.0470626,
+      "timestamp_iso": "2025-09-16T20:50:29.047063Z",
+      "acceleration_x": 0.21072722832722832,
+      "acceleration_y": 0.1724131868131868,
+      "acceleration_z": 9.712609523809522,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081029.0685353,
+      "timestamp_iso": "2025-09-16T20:50:29.068535Z",
+      "acceleration_x": 0.2490412698412698,
+      "acceleration_y": 0.07662808302808302,
+      "acceleration_z": 9.693452503052503,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081029.0900085,
+      "timestamp_iso": "2025-09-16T20:50:29.090008Z",
+      "acceleration_x": 0.2681982905982906,
+      "acceleration_y": 0.11494212454212453,
+      "acceleration_z": 9.693452503052503,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081029.1114876,
+      "timestamp_iso": "2025-09-16T20:50:29.111488Z",
+      "acceleration_x": 0.21072722832722832,
+      "acceleration_y": 0.057471062271062266,
+      "acceleration_z": 9.655138461538462,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081029.1329591,
+      "timestamp_iso": "2025-09-16T20:50:29.132959Z",
+      "acceleration_x": 0.22988424908424906,
+      "acceleration_y": 0.07662808302808302,
+      "acceleration_z": 9.674295482295483,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081029.154433,
+      "timestamp_iso": "2025-09-16T20:50:29.154433Z",
+      "acceleration_x": 0.2490412698412698,
+      "acceleration_y": 0.09578510378510377,
+      "acceleration_z": 9.674295482295483,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081029.1759038,
+      "timestamp_iso": "2025-09-16T20:50:29.175904Z",
+      "acceleration_x": 0.28735531135531134,
+      "acceleration_y": 0.15325616605616604,
+      "acceleration_z": 9.712609523809522,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081029.197374,
+      "timestamp_iso": "2025-09-16T20:50:29.197374Z",
+      "acceleration_x": 0.2681982905982906,
+      "acceleration_y": 0.1340991452991453,
+      "acceleration_z": 9.731766544566543,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081029.218847,
+      "timestamp_iso": "2025-09-16T20:50:29.218847Z",
+      "acceleration_x": 0.2681982905982906,
+      "acceleration_y": 0.15325616605616604,
+      "acceleration_z": 9.693452503052503,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081029.2403235,
+      "timestamp_iso": "2025-09-16T20:50:29.240324Z",
+      "acceleration_x": 0.22988424908424906,
+      "acceleration_y": 0.07662808302808302,
+      "acceleration_z": 9.674295482295483,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081029.2617977,
+      "timestamp_iso": "2025-09-16T20:50:29.261798Z",
+      "acceleration_x": 0.19157020757020754,
+      "acceleration_y": 0.09578510378510377,
+      "acceleration_z": 9.712609523809522,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081029.283287,
+      "timestamp_iso": "2025-09-16T20:50:29.283287Z",
+      "acceleration_x": 0.2490412698412698,
+      "acceleration_y": 0.09578510378510377,
+      "acceleration_z": 9.750923565323564,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081029.304766,
+      "timestamp_iso": "2025-09-16T20:50:29.304766Z",
+      "acceleration_x": 0.2681982905982906,
+      "acceleration_y": 0.09578510378510377,
+      "acceleration_z": 9.693452503052503,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081029.3262448,
+      "timestamp_iso": "2025-09-16T20:50:29.326245Z",
+      "acceleration_x": 0.19157020757020754,
+      "acceleration_y": 0.09578510378510377,
+      "acceleration_z": 9.731766544566543,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081029.3477166,
+      "timestamp_iso": "2025-09-16T20:50:29.347717Z",
+      "acceleration_x": 0.3065123321123321,
+      "acceleration_y": 0.1340991452991453,
+      "acceleration_z": 9.789237606837606,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081029.369194,
+      "timestamp_iso": "2025-09-16T20:50:29.369194Z",
+      "acceleration_x": 0.2490412698412698,
+      "acceleration_y": 0.11494212454212453,
+      "acceleration_z": 9.731766544566543,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081029.390667,
+      "timestamp_iso": "2025-09-16T20:50:29.390667Z",
+      "acceleration_x": 0.21072722832722832,
+      "acceleration_y": 0.057471062271062266,
+      "acceleration_z": 9.731766544566543,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081029.4121394,
+      "timestamp_iso": "2025-09-16T20:50:29.412139Z",
+      "acceleration_x": 0.21072722832722832,
+      "acceleration_y": 0.057471062271062266,
+      "acceleration_z": 9.750923565323564,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081029.4336138,
+      "timestamp_iso": "2025-09-16T20:50:29.433614Z",
+      "acceleration_x": 0.2681982905982906,
+      "acceleration_y": 0.09578510378510377,
+      "acceleration_z": 9.693452503052503,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081029.4551122,
+      "timestamp_iso": "2025-09-16T20:50:29.455112Z",
+      "acceleration_x": 0.22988424908424906,
+      "acceleration_y": 0.09578510378510377,
+      "acceleration_z": 9.693452503052503,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081029.4766307,
+      "timestamp_iso": "2025-09-16T20:50:29.476631Z",
+      "acceleration_x": 0.15325616605616604,
+      "acceleration_y": 0.1340991452991453,
+      "acceleration_z": 9.750923565323564,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081029.4981143,
+      "timestamp_iso": "2025-09-16T20:50:29.498114Z",
+      "acceleration_x": 0.22988424908424906,
+      "acceleration_y": 0.11494212454212453,
+      "acceleration_z": 9.655138461538462,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081029.519587,
+      "timestamp_iso": "2025-09-16T20:50:29.519587Z",
+      "acceleration_x": 0.1340991452991453,
+      "acceleration_y": 0.09578510378510377,
+      "acceleration_z": 9.655138461538462,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081029.541061,
+      "timestamp_iso": "2025-09-16T20:50:29.541061Z",
+      "acceleration_x": 0.2490412698412698,
+      "acceleration_y": 0.09578510378510377,
+      "acceleration_z": 9.750923565323564,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081029.5625362,
+      "timestamp_iso": "2025-09-16T20:50:29.562536Z",
+      "acceleration_x": 0.19157020757020754,
+      "acceleration_y": 0.09578510378510377,
+      "acceleration_z": 9.712609523809522,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081029.5840428,
+      "timestamp_iso": "2025-09-16T20:50:29.584043Z",
+      "acceleration_x": 0.21072722832722832,
+      "acceleration_y": 0.11494212454212453,
+      "acceleration_z": 9.750923565323564,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081029.6055346,
+      "timestamp_iso": "2025-09-16T20:50:29.605535Z",
+      "acceleration_x": 0.2681982905982906,
+      "acceleration_y": 0.057471062271062266,
+      "acceleration_z": 9.731766544566543,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081029.6270096,
+      "timestamp_iso": "2025-09-16T20:50:29.627010Z",
+      "acceleration_x": 0.21072722832722832,
+      "acceleration_y": 0.09578510378510377,
+      "acceleration_z": 9.693452503052503,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081029.648493,
+      "timestamp_iso": "2025-09-16T20:50:29.648493Z",
+      "acceleration_x": 0.22988424908424906,
+      "acceleration_y": 0.15325616605616604,
+      "acceleration_z": 9.731766544566543,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081029.6699688,
+      "timestamp_iso": "2025-09-16T20:50:29.669969Z",
+      "acceleration_x": 0.1340991452991453,
+      "acceleration_y": 0.11494212454212453,
+      "acceleration_z": 9.616824420024418,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081029.691448,
+      "timestamp_iso": "2025-09-16T20:50:29.691448Z",
+      "acceleration_x": 0.28735531135531134,
+      "acceleration_y": 0.11494212454212453,
+      "acceleration_z": 9.693452503052503,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081029.7129424,
+      "timestamp_iso": "2025-09-16T20:50:29.712942Z",
+      "acceleration_x": 0.3065123321123321,
+      "acceleration_y": 0.057471062271062266,
+      "acceleration_z": 9.674295482295483,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081029.7344608,
+      "timestamp_iso": "2025-09-16T20:50:29.734461Z",
+      "acceleration_x": 0.2490412698412698,
+      "acceleration_y": 0.1340991452991453,
+      "acceleration_z": 9.712609523809522,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081029.7560332,
+      "timestamp_iso": "2025-09-16T20:50:29.756033Z",
+      "acceleration_x": 0.2681982905982906,
+      "acceleration_y": 0.11494212454212453,
+      "acceleration_z": 9.731766544566543,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081029.7776177,
+      "timestamp_iso": "2025-09-16T20:50:29.777618Z",
+      "acceleration_x": 0.2681982905982906,
+      "acceleration_y": 0.11494212454212453,
+      "acceleration_z": 9.712609523809522,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081029.7992246,
+      "timestamp_iso": "2025-09-16T20:50:29.799225Z",
+      "acceleration_x": 0.22988424908424906,
+      "acceleration_y": 0.11494212454212453,
+      "acceleration_z": 9.655138461538462,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081029.8208013,
+      "timestamp_iso": "2025-09-16T20:50:29.820801Z",
+      "acceleration_x": 0.11494212454212453,
+      "acceleration_y": 0.07662808302808302,
+      "acceleration_z": 9.731766544566543,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081029.8423762,
+      "timestamp_iso": "2025-09-16T20:50:29.842376Z",
+      "acceleration_x": 0.21072722832722832,
+      "acceleration_y": 0.07662808302808302,
+      "acceleration_z": 9.750923565323564,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081029.86395,
+      "timestamp_iso": "2025-09-16T20:50:29.863950Z",
+      "acceleration_x": 0.2490412698412698,
+      "acceleration_y": 0.11494212454212453,
+      "acceleration_z": 9.693452503052503,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081029.8855305,
+      "timestamp_iso": "2025-09-16T20:50:29.885530Z",
+      "acceleration_x": 0.2681982905982906,
+      "acceleration_y": 0.11494212454212453,
+      "acceleration_z": 9.674295482295483,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081029.908862,
+      "timestamp_iso": "2025-09-16T20:50:29.908862Z",
+      "acceleration_x": 0.1724131868131868,
+      "acceleration_y": 0.1340991452991453,
+      "acceleration_z": 9.770080586080585,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081029.9307883,
+      "timestamp_iso": "2025-09-16T20:50:29.930788Z",
+      "acceleration_x": 0.28735531135531134,
+      "acceleration_y": 0.07662808302808302,
+      "acceleration_z": 9.712609523809522,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081029.9523644,
+      "timestamp_iso": "2025-09-16T20:50:29.952364Z",
+      "acceleration_x": 0.21072722832722832,
+      "acceleration_y": 0.09578510378510377,
+      "acceleration_z": 9.789237606837606,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081029.973971,
+      "timestamp_iso": "2025-09-16T20:50:29.973971Z",
+      "acceleration_x": 0.2490412698412698,
+      "acceleration_y": 0.11494212454212453,
+      "acceleration_z": 9.750923565323564,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081029.9955466,
+      "timestamp_iso": "2025-09-16T20:50:29.995547Z",
+      "acceleration_x": 0.1724131868131868,
+      "acceleration_y": 0.019157020757020755,
+      "acceleration_z": 9.789237606837606,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081030.017132,
+      "timestamp_iso": "2025-09-16T20:50:30.017132Z",
+      "acceleration_x": 0.21072722832722832,
+      "acceleration_y": 0.057471062271062266,
+      "acceleration_z": 9.770080586080585,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081030.0386941,
+      "timestamp_iso": "2025-09-16T20:50:30.038694Z",
+      "acceleration_x": 0.21072722832722832,
+      "acceleration_y": 0.09578510378510377,
+      "acceleration_z": 9.750923565323564,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081030.0602672,
+      "timestamp_iso": "2025-09-16T20:50:30.060267Z",
+      "acceleration_x": 0.19157020757020754,
+      "acceleration_y": 0.07662808302808302,
+      "acceleration_z": 9.693452503052503,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081030.0818534,
+      "timestamp_iso": "2025-09-16T20:50:30.081853Z",
+      "acceleration_x": 0.1340991452991453,
+      "acceleration_y": 0.09578510378510377,
+      "acceleration_z": 9.712609523809522,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081030.1034636,
+      "timestamp_iso": "2025-09-16T20:50:30.103464Z",
+      "acceleration_x": 0.28735531135531134,
+      "acceleration_y": 0.07662808302808302,
+      "acceleration_z": 9.693452503052503,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081030.1250415,
+      "timestamp_iso": "2025-09-16T20:50:30.125041Z",
+      "acceleration_x": 0.2490412698412698,
+      "acceleration_y": 0.09578510378510377,
+      "acceleration_z": 9.693452503052503,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081030.1466115,
+      "timestamp_iso": "2025-09-16T20:50:30.146611Z",
+      "acceleration_x": 0.1724131868131868,
+      "acceleration_y": 0.11494212454212453,
+      "acceleration_z": 9.770080586080585,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081030.1681902,
+      "timestamp_iso": "2025-09-16T20:50:30.168190Z",
+      "acceleration_x": 0.21072722832722832,
+      "acceleration_y": 0.07662808302808302,
+      "acceleration_z": 9.750923565323564,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081030.189783,
+      "timestamp_iso": "2025-09-16T20:50:30.189783Z",
+      "acceleration_x": 0.28735531135531134,
+      "acceleration_y": 0.11494212454212453,
+      "acceleration_z": 9.674295482295483,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081030.2113562,
+      "timestamp_iso": "2025-09-16T20:50:30.211356Z",
+      "acceleration_x": 0.4406114774114774,
+      "acceleration_y": 0.15325616605616604,
+      "acceleration_z": 9.961650793650792,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081030.2329016,
+      "timestamp_iso": "2025-09-16T20:50:30.232902Z",
+      "acceleration_x": 0.32566935286935284,
+      "acceleration_y": 0.09578510378510377,
+      "acceleration_z": 9.731766544566543,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081030.2545228,
+      "timestamp_iso": "2025-09-16T20:50:30.254523Z",
+      "acceleration_x": 0.28735531135531134,
+      "acceleration_y": 0.09578510378510377,
+      "acceleration_z": 9.750923565323564,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081030.2760944,
+      "timestamp_iso": "2025-09-16T20:50:30.276094Z",
+      "acceleration_x": 0.2681982905982906,
+      "acceleration_y": 0.15325616605616604,
+      "acceleration_z": 9.674295482295483,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081030.2976832,
+      "timestamp_iso": "2025-09-16T20:50:30.297683Z",
+      "acceleration_x": 0.21072722832722832,
+      "acceleration_y": 0.09578510378510377,
+      "acceleration_z": 9.731766544566543,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081030.3192506,
+      "timestamp_iso": "2025-09-16T20:50:30.319251Z",
+      "acceleration_x": 0.22988424908424906,
+      "acceleration_y": 0.1340991452991453,
+      "acceleration_z": 9.712609523809522,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081030.3407366,
+      "timestamp_iso": "2025-09-16T20:50:30.340737Z",
+      "acceleration_x": 0.22988424908424906,
+      "acceleration_y": 0.11494212454212453,
+      "acceleration_z": 9.731766544566543,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081030.3622124,
+      "timestamp_iso": "2025-09-16T20:50:30.362212Z",
+      "acceleration_x": 0.32566935286935284,
+      "acceleration_y": 0.07662808302808302,
+      "acceleration_z": 9.616824420024418,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081030.383712,
+      "timestamp_iso": "2025-09-16T20:50:30.383712Z",
+      "acceleration_x": 0.3448263736263736,
+      "acceleration_y": 0.11494212454212453,
+      "acceleration_z": 9.674295482295483,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081030.4051914,
+      "timestamp_iso": "2025-09-16T20:50:30.405191Z",
+      "acceleration_x": 0.2490412698412698,
+      "acceleration_y": 0.07662808302808302,
+      "acceleration_z": 9.712609523809522,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081030.4266658,
+      "timestamp_iso": "2025-09-16T20:50:30.426666Z",
+      "acceleration_x": 0.2681982905982906,
+      "acceleration_y": 0.1724131868131868,
+      "acceleration_z": 9.674295482295483,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081030.4481387,
+      "timestamp_iso": "2025-09-16T20:50:30.448139Z",
+      "acceleration_x": 0.32566935286935284,
+      "acceleration_y": 0.11494212454212453,
+      "acceleration_z": 9.712609523809522,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081030.4696114,
+      "timestamp_iso": "2025-09-16T20:50:30.469611Z",
+      "acceleration_x": 0.3065123321123321,
+      "acceleration_y": 0.11494212454212453,
+      "acceleration_z": 9.731766544566543,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081030.4911137,
+      "timestamp_iso": "2025-09-16T20:50:30.491114Z",
+      "acceleration_x": 0.19157020757020754,
+      "acceleration_y": 0.09578510378510377,
+      "acceleration_z": 9.770080586080585,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081030.5125954,
+      "timestamp_iso": "2025-09-16T20:50:30.512595Z",
+      "acceleration_x": 0.28735531135531134,
+      "acceleration_y": 0.15325616605616604,
+      "acceleration_z": 9.731766544566543,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081030.534083,
+      "timestamp_iso": "2025-09-16T20:50:30.534083Z",
+      "acceleration_x": 0.2681982905982906,
+      "acceleration_y": 0.11494212454212453,
+      "acceleration_z": 9.674295482295483,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081030.5555565,
+      "timestamp_iso": "2025-09-16T20:50:30.555557Z",
+      "acceleration_x": 0.22988424908424906,
+      "acceleration_y": 0.19157020757020754,
+      "acceleration_z": 9.674295482295483,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081030.577041,
+      "timestamp_iso": "2025-09-16T20:50:30.577041Z",
+      "acceleration_x": 0.2681982905982906,
+      "acceleration_y": 0.15325616605616604,
+      "acceleration_z": 9.750923565323564,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081030.5985425,
+      "timestamp_iso": "2025-09-16T20:50:30.598542Z",
+      "acceleration_x": 0.22988424908424906,
+      "acceleration_y": 0.15325616605616604,
+      "acceleration_z": 9.731766544566543,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081030.6200624,
+      "timestamp_iso": "2025-09-16T20:50:30.620062Z",
+      "acceleration_x": 0.2490412698412698,
+      "acceleration_y": 0.11494212454212453,
+      "acceleration_z": 9.655138461538462,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081030.6417518,
+      "timestamp_iso": "2025-09-16T20:50:30.641752Z",
+      "acceleration_x": 0.21072722832722832,
+      "acceleration_y": 0.09578510378510377,
+      "acceleration_z": 9.712609523809522,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081030.6633723,
+      "timestamp_iso": "2025-09-16T20:50:30.663372Z",
+      "acceleration_x": 0.19157020757020754,
+      "acceleration_y": 0.07662808302808302,
+      "acceleration_z": 9.482725274725274,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081030.6849675,
+      "timestamp_iso": "2025-09-16T20:50:30.684968Z",
+      "acceleration_x": 0.1724131868131868,
+      "acceleration_y": 0.09578510378510377,
+      "acceleration_z": 9.731766544566543,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081030.7065964,
+      "timestamp_iso": "2025-09-16T20:50:30.706596Z",
+      "acceleration_x": 0.21072722832722832,
+      "acceleration_y": 0.1340991452991453,
+      "acceleration_z": 9.750923565323564,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081030.7281587,
+      "timestamp_iso": "2025-09-16T20:50:30.728159Z",
+      "acceleration_x": 0.1724131868131868,
+      "acceleration_y": 0.07662808302808302,
+      "acceleration_z": 9.750923565323564,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081030.749635,
+      "timestamp_iso": "2025-09-16T20:50:30.749635Z",
+      "acceleration_x": 0.22988424908424906,
+      "acceleration_y": 0.09578510378510377,
+      "acceleration_z": 9.731766544566543,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081030.771109,
+      "timestamp_iso": "2025-09-16T20:50:30.771109Z",
+      "acceleration_x": 0.2681982905982906,
+      "acceleration_y": 0.07662808302808302,
+      "acceleration_z": 9.693452503052503,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081030.7925837,
+      "timestamp_iso": "2025-09-16T20:50:30.792584Z",
+      "acceleration_x": 0.3065123321123321,
+      "acceleration_y": 0.1340991452991453,
+      "acceleration_z": 9.693452503052503,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081030.8140569,
+      "timestamp_iso": "2025-09-16T20:50:30.814057Z",
+      "acceleration_x": 0.32566935286935284,
+      "acceleration_y": 0.1340991452991453,
+      "acceleration_z": 9.750923565323564,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081030.8355308,
+      "timestamp_iso": "2025-09-16T20:50:30.835531Z",
+      "acceleration_x": 0.2681982905982906,
+      "acceleration_y": 0.09578510378510377,
+      "acceleration_z": 9.750923565323564,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081030.8570304,
+      "timestamp_iso": "2025-09-16T20:50:30.857030Z",
+      "acceleration_x": 0.22988424908424906,
+      "acceleration_y": 0.11494212454212453,
+      "acceleration_z": 9.693452503052503,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081030.8784997,
+      "timestamp_iso": "2025-09-16T20:50:30.878500Z",
+      "acceleration_x": 0.15325616605616604,
+      "acceleration_y": 0.09578510378510377,
+      "acceleration_z": 9.674295482295483,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081030.899974,
+      "timestamp_iso": "2025-09-16T20:50:30.899974Z",
+      "acceleration_x": 0.19157020757020754,
+      "acceleration_y": 0.11494212454212453,
+      "acceleration_z": 9.770080586080585,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081030.9214664,
+      "timestamp_iso": "2025-09-16T20:50:30.921466Z",
+      "acceleration_x": 0.19157020757020754,
+      "acceleration_y": 0.15325616605616604,
+      "acceleration_z": 9.750923565323564,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081030.9429433,
+      "timestamp_iso": "2025-09-16T20:50:30.942943Z",
+      "acceleration_x": 0.22988424908424906,
+      "acceleration_y": 0.11494212454212453,
+      "acceleration_z": 9.770080586080585,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081030.964419,
+      "timestamp_iso": "2025-09-16T20:50:30.964419Z",
+      "acceleration_x": 0.21072722832722832,
+      "acceleration_y": 0.11494212454212453,
+      "acceleration_z": 9.444411233211232,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081030.9858913,
+      "timestamp_iso": "2025-09-16T20:50:30.985891Z",
+      "acceleration_x": 0.2681982905982906,
+      "acceleration_y": 0.1724131868131868,
+      "acceleration_z": 9.578510378510378,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081031.0073633,
+      "timestamp_iso": "2025-09-16T20:50:31.007363Z",
+      "acceleration_x": 0.28735531135531134,
+      "acceleration_y": 0.07662808302808302,
+      "acceleration_z": 9.674295482295483,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081031.028838,
+      "timestamp_iso": "2025-09-16T20:50:31.028838Z",
+      "acceleration_x": 0.21072722832722832,
+      "acceleration_y": 0.07662808302808302,
+      "acceleration_z": 9.731766544566543,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081031.0503125,
+      "timestamp_iso": "2025-09-16T20:50:31.050313Z",
+      "acceleration_x": 0.1724131868131868,
+      "acceleration_y": 0.07662808302808302,
+      "acceleration_z": 9.731766544566543,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081031.071785,
+      "timestamp_iso": "2025-09-16T20:50:31.071785Z",
+      "acceleration_x": 0.1724131868131868,
+      "acceleration_y": 0.09578510378510377,
+      "acceleration_z": 9.770080586080585,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081031.093257,
+      "timestamp_iso": "2025-09-16T20:50:31.093257Z",
+      "acceleration_x": 0.2490412698412698,
+      "acceleration_y": 0.11494212454212453,
+      "acceleration_z": 9.693452503052503,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081031.1147304,
+      "timestamp_iso": "2025-09-16T20:50:31.114730Z",
+      "acceleration_x": 0.36398339438339433,
+      "acceleration_y": 0.11494212454212453,
+      "acceleration_z": 9.88502271062271,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081031.1362028,
+      "timestamp_iso": "2025-09-16T20:50:31.136203Z",
+      "acceleration_x": 0.28735531135531134,
+      "acceleration_y": 0.07662808302808302,
+      "acceleration_z": 9.770080586080585,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081031.1576748,
+      "timestamp_iso": "2025-09-16T20:50:31.157675Z",
+      "acceleration_x": 0.2681982905982906,
+      "acceleration_y": 0.1340991452991453,
+      "acceleration_z": 9.712609523809522,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081031.179146,
+      "timestamp_iso": "2025-09-16T20:50:31.179146Z",
+      "acceleration_x": 0.22988424908424906,
+      "acceleration_y": 0.09578510378510377,
+      "acceleration_z": 9.712609523809522,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081031.2006176,
+      "timestamp_iso": "2025-09-16T20:50:31.200618Z",
+      "acceleration_x": 0.2490412698412698,
+      "acceleration_y": 0.09578510378510377,
+      "acceleration_z": 9.712609523809522,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081031.2220893,
+      "timestamp_iso": "2025-09-16T20:50:31.222089Z",
+      "acceleration_x": 0.22988424908424906,
+      "acceleration_y": 0.057471062271062266,
+      "acceleration_z": 9.770080586080585,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081031.2435606,
+      "timestamp_iso": "2025-09-16T20:50:31.243561Z",
+      "acceleration_x": 0.19157020757020754,
+      "acceleration_y": 0.09578510378510377,
+      "acceleration_z": 9.712609523809522,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081031.265031,
+      "timestamp_iso": "2025-09-16T20:50:31.265031Z",
+      "acceleration_x": 0.19157020757020754,
+      "acceleration_y": 0.1340991452991453,
+      "acceleration_z": 9.750923565323564,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081031.2865188,
+      "timestamp_iso": "2025-09-16T20:50:31.286519Z",
+      "acceleration_x": 0.21072722832722832,
+      "acceleration_y": 0.09578510378510377,
+      "acceleration_z": 9.693452503052503,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081031.3079944,
+      "timestamp_iso": "2025-09-16T20:50:31.307994Z",
+      "acceleration_x": 0.22988424908424906,
+      "acceleration_y": 0.11494212454212453,
+      "acceleration_z": 9.731766544566543,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081031.32947,
+      "timestamp_iso": "2025-09-16T20:50:31.329470Z",
+      "acceleration_x": 0.21072722832722832,
+      "acceleration_y": 0.11494212454212453,
+      "acceleration_z": 9.750923565323564,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081031.3509734,
+      "timestamp_iso": "2025-09-16T20:50:31.350973Z",
+      "acceleration_x": 0.21072722832722832,
+      "acceleration_y": 0.15325616605616604,
+      "acceleration_z": 9.731766544566543,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081031.3724508,
+      "timestamp_iso": "2025-09-16T20:50:31.372451Z",
+      "acceleration_x": 0.2681982905982906,
+      "acceleration_y": 0.11494212454212453,
+      "acceleration_z": 9.712609523809522,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081031.3939261,
+      "timestamp_iso": "2025-09-16T20:50:31.393926Z",
+      "acceleration_x": 0.19157020757020754,
+      "acceleration_y": 0.09578510378510377,
+      "acceleration_z": 9.712609523809522,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081031.4154081,
+      "timestamp_iso": "2025-09-16T20:50:31.415408Z",
+      "acceleration_x": 0.21072722832722832,
+      "acceleration_y": 0.11494212454212453,
+      "acceleration_z": 9.731766544566543,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081031.436883,
+      "timestamp_iso": "2025-09-16T20:50:31.436883Z",
+      "acceleration_x": 0.2681982905982906,
+      "acceleration_y": 0.15325616605616604,
+      "acceleration_z": 9.789237606837606,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081031.45836,
+      "timestamp_iso": "2025-09-16T20:50:31.458360Z",
+      "acceleration_x": 0.2490412698412698,
+      "acceleration_y": 0.11494212454212453,
+      "acceleration_z": 9.770080586080585,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081031.47984,
+      "timestamp_iso": "2025-09-16T20:50:31.479840Z",
+      "acceleration_x": 0.2681982905982906,
+      "acceleration_y": 0.07662808302808302,
+      "acceleration_z": 9.731766544566543,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081031.5013125,
+      "timestamp_iso": "2025-09-16T20:50:31.501312Z",
+      "acceleration_x": 0.2681982905982906,
+      "acceleration_y": 0.09578510378510377,
+      "acceleration_z": 9.712609523809522,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081031.5227845,
+      "timestamp_iso": "2025-09-16T20:50:31.522784Z",
+      "acceleration_x": 0.22988424908424906,
+      "acceleration_y": 0.1724131868131868,
+      "acceleration_z": 9.731766544566543,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081031.5442598,
+      "timestamp_iso": "2025-09-16T20:50:31.544260Z",
+      "acceleration_x": 0.21072722832722832,
+      "acceleration_y": 0.07662808302808302,
+      "acceleration_z": 9.731766544566543,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081031.5657341,
+      "timestamp_iso": "2025-09-16T20:50:31.565734Z",
+      "acceleration_x": 0.22988424908424906,
+      "acceleration_y": 0.11494212454212453,
+      "acceleration_z": 9.731766544566543,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081031.5872324,
+      "timestamp_iso": "2025-09-16T20:50:31.587232Z",
+      "acceleration_x": 0.19157020757020754,
+      "acceleration_y": 0.1724131868131868,
+      "acceleration_z": 9.674295482295483,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081031.608724,
+      "timestamp_iso": "2025-09-16T20:50:31.608724Z",
+      "acceleration_x": 0.19157020757020754,
+      "acceleration_y": 0.1340991452991453,
+      "acceleration_z": 9.712609523809522,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081031.6301987,
+      "timestamp_iso": "2025-09-16T20:50:31.630199Z",
+      "acceleration_x": 0.19157020757020754,
+      "acceleration_y": 0.11494212454212453,
+      "acceleration_z": 9.693452503052503,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081031.6516736,
+      "timestamp_iso": "2025-09-16T20:50:31.651674Z",
+      "acceleration_x": 0.19157020757020754,
+      "acceleration_y": 0.15325616605616604,
+      "acceleration_z": 9.674295482295483,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081031.6731455,
+      "timestamp_iso": "2025-09-16T20:50:31.673146Z",
+      "acceleration_x": 0.19157020757020754,
+      "acceleration_y": 0.15325616605616604,
+      "acceleration_z": 9.693452503052503,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081031.6946352,
+      "timestamp_iso": "2025-09-16T20:50:31.694635Z",
+      "acceleration_x": 0.28735531135531134,
+      "acceleration_y": 0.11494212454212453,
+      "acceleration_z": 9.731766544566543,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081031.7161078,
+      "timestamp_iso": "2025-09-16T20:50:31.716108Z",
+      "acceleration_x": 0.21072722832722832,
+      "acceleration_y": 0.1340991452991453,
+      "acceleration_z": 9.770080586080585,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081031.7376044,
+      "timestamp_iso": "2025-09-16T20:50:31.737604Z",
+      "acceleration_x": 0.2490412698412698,
+      "acceleration_y": 0.11494212454212453,
+      "acceleration_z": 9.789237606837606,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081031.7590964,
+      "timestamp_iso": "2025-09-16T20:50:31.759096Z",
+      "acceleration_x": 0.22988424908424906,
+      "acceleration_y": 0.09578510378510377,
+      "acceleration_z": 9.693452503052503,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081031.7805703,
+      "timestamp_iso": "2025-09-16T20:50:31.780570Z",
+      "acceleration_x": 0.21072722832722832,
+      "acceleration_y": 0.1340991452991453,
+      "acceleration_z": 9.770080586080585,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081031.8020682,
+      "timestamp_iso": "2025-09-16T20:50:31.802068Z",
+      "acceleration_x": 0.1724131868131868,
+      "acceleration_y": 0.07662808302808302,
+      "acceleration_z": 9.750923565323564,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081031.823539,
+      "timestamp_iso": "2025-09-16T20:50:31.823539Z",
+      "acceleration_x": 0.22988424908424906,
+      "acceleration_y": 0.1340991452991453,
+      "acceleration_z": 9.693452503052503,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081031.845011,
+      "timestamp_iso": "2025-09-16T20:50:31.845011Z",
+      "acceleration_x": 0.21072722832722832,
+      "acceleration_y": 0.07662808302808302,
+      "acceleration_z": 9.808394627594627,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081031.866484,
+      "timestamp_iso": "2025-09-16T20:50:31.866484Z",
+      "acceleration_x": 0.1724131868131868,
+      "acceleration_y": 0.09578510378510377,
+      "acceleration_z": 9.770080586080585,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081031.8879554,
+      "timestamp_iso": "2025-09-16T20:50:31.887955Z",
+      "acceleration_x": 0.22988424908424906,
+      "acceleration_y": 0.057471062271062266,
+      "acceleration_z": 9.808394627594627,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081031.9094296,
+      "timestamp_iso": "2025-09-16T20:50:31.909430Z",
+      "acceleration_x": 0.2681982905982906,
+      "acceleration_y": 0.07662808302808302,
+      "acceleration_z": 9.693452503052503,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081031.9309032,
+      "timestamp_iso": "2025-09-16T20:50:31.930903Z",
+      "acceleration_x": 0.28735531135531134,
+      "acceleration_y": 0.1340991452991453,
+      "acceleration_z": 9.693452503052503,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081031.952376,
+      "timestamp_iso": "2025-09-16T20:50:31.952376Z",
+      "acceleration_x": 0.28735531135531134,
+      "acceleration_y": 0.15325616605616604,
+      "acceleration_z": 9.674295482295483,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081031.973864,
+      "timestamp_iso": "2025-09-16T20:50:31.973864Z",
+      "acceleration_x": 0.28735531135531134,
+      "acceleration_y": 0.057471062271062266,
+      "acceleration_z": 9.674295482295483,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081031.995338,
+      "timestamp_iso": "2025-09-16T20:50:31.995338Z",
+      "acceleration_x": 0.2490412698412698,
+      "acceleration_y": 0.07662808302808302,
+      "acceleration_z": 9.731766544566543,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081032.0168107,
+      "timestamp_iso": "2025-09-16T20:50:32.016811Z",
+      "acceleration_x": 0.21072722832722832,
+      "acceleration_y": 0.057471062271062266,
+      "acceleration_z": 9.731766544566543,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081032.0382826,
+      "timestamp_iso": "2025-09-16T20:50:32.038283Z",
+      "acceleration_x": 0.19157020757020754,
+      "acceleration_y": 0.057471062271062266,
+      "acceleration_z": 9.521039316239316,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081032.059759,
+      "timestamp_iso": "2025-09-16T20:50:32.059759Z",
+      "acceleration_x": 0.19157020757020754,
+      "acceleration_y": 0.07662808302808302,
+      "acceleration_z": 9.655138461538462,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081032.0812304,
+      "timestamp_iso": "2025-09-16T20:50:32.081230Z",
+      "acceleration_x": 0.1724131868131868,
+      "acceleration_y": 0.07662808302808302,
+      "acceleration_z": 9.750923565323564,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081032.102703,
+      "timestamp_iso": "2025-09-16T20:50:32.102703Z",
+      "acceleration_x": 0.2490412698412698,
+      "acceleration_y": 0.07662808302808302,
+      "acceleration_z": 9.750923565323564,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081032.1241744,
+      "timestamp_iso": "2025-09-16T20:50:32.124174Z",
+      "acceleration_x": 0.22988424908424906,
+      "acceleration_y": 0.09578510378510377,
+      "acceleration_z": 9.693452503052503,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081032.1456466,
+      "timestamp_iso": "2025-09-16T20:50:32.145647Z",
+      "acceleration_x": 0.1724131868131868,
+      "acceleration_y": 0.07662808302808302,
+      "acceleration_z": 9.693452503052503,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081032.1671293,
+      "timestamp_iso": "2025-09-16T20:50:32.167129Z",
+      "acceleration_x": 0.2490412698412698,
+      "acceleration_y": 0.1340991452991453,
+      "acceleration_z": 9.693452503052503,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081032.1886244,
+      "timestamp_iso": "2025-09-16T20:50:32.188624Z",
+      "acceleration_x": 0.28735531135531134,
+      "acceleration_y": 0.15325616605616604,
+      "acceleration_z": 9.731766544566543,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081032.210101,
+      "timestamp_iso": "2025-09-16T20:50:32.210101Z",
+      "acceleration_x": 0.28735531135531134,
+      "acceleration_y": 0.09578510378510377,
+      "acceleration_z": 9.731766544566543,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081032.231575,
+      "timestamp_iso": "2025-09-16T20:50:32.231575Z",
+      "acceleration_x": 0.21072722832722832,
+      "acceleration_y": 0.07662808302808302,
+      "acceleration_z": 9.750923565323564,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081032.2530487,
+      "timestamp_iso": "2025-09-16T20:50:32.253049Z",
+      "acceleration_x": 0.21072722832722832,
+      "acceleration_y": 0.057471062271062266,
+      "acceleration_z": 9.693452503052503,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081032.2745218,
+      "timestamp_iso": "2025-09-16T20:50:32.274522Z",
+      "acceleration_x": 0.1724131868131868,
+      "acceleration_y": 0.15325616605616604,
+      "acceleration_z": 9.731766544566543,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081032.2959886,
+      "timestamp_iso": "2025-09-16T20:50:32.295989Z",
+      "acceleration_x": 0.21072722832722832,
+      "acceleration_y": 0.15325616605616604,
+      "acceleration_z": 9.674295482295483,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081032.3174644,
+      "timestamp_iso": "2025-09-16T20:50:32.317464Z",
+      "acceleration_x": 0.22988424908424906,
+      "acceleration_y": 0.07662808302808302,
+      "acceleration_z": 9.731766544566543,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081032.3389375,
+      "timestamp_iso": "2025-09-16T20:50:32.338938Z",
+      "acceleration_x": 0.2681982905982906,
+      "acceleration_y": 0.09578510378510377,
+      "acceleration_z": 9.712609523809522,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081032.3604102,
+      "timestamp_iso": "2025-09-16T20:50:32.360410Z",
+      "acceleration_x": 0.3448263736263736,
+      "acceleration_y": 0.11494212454212453,
+      "acceleration_z": 9.808394627594627,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081032.3818824,
+      "timestamp_iso": "2025-09-16T20:50:32.381882Z",
+      "acceleration_x": 0.2490412698412698,
+      "acceleration_y": 0.1340991452991453,
+      "acceleration_z": 9.731766544566543,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081032.4033537,
+      "timestamp_iso": "2025-09-16T20:50:32.403354Z",
+      "acceleration_x": 0.1724131868131868,
+      "acceleration_y": 0.11494212454212453,
+      "acceleration_z": 9.693452503052503,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081032.4248276,
+      "timestamp_iso": "2025-09-16T20:50:32.424828Z",
+      "acceleration_x": 0.15325616605616604,
+      "acceleration_y": 0.15325616605616604,
+      "acceleration_z": 9.655138461538462,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081032.4462984,
+      "timestamp_iso": "2025-09-16T20:50:32.446298Z",
+      "acceleration_x": 0.15325616605616604,
+      "acceleration_y": 0.11494212454212453,
+      "acceleration_z": 9.731766544566543,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081032.4677699,
+      "timestamp_iso": "2025-09-16T20:50:32.467770Z",
+      "acceleration_x": 0.15325616605616604,
+      "acceleration_y": 0.15325616605616604,
+      "acceleration_z": 9.750923565323564,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081032.489241,
+      "timestamp_iso": "2025-09-16T20:50:32.489241Z",
+      "acceleration_x": 0.19157020757020754,
+      "acceleration_y": 0.1340991452991453,
+      "acceleration_z": 9.693452503052503,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081032.5107305,
+      "timestamp_iso": "2025-09-16T20:50:32.510731Z",
+      "acceleration_x": 0.2681982905982906,
+      "acceleration_y": 0.11494212454212453,
+      "acceleration_z": 9.597667399267397,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081032.5322044,
+      "timestamp_iso": "2025-09-16T20:50:32.532204Z",
+      "acceleration_x": 0.22988424908424906,
+      "acceleration_y": 0.07662808302808302,
+      "acceleration_z": 9.635981440781439,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081032.5536711,
+      "timestamp_iso": "2025-09-16T20:50:32.553671Z",
+      "acceleration_x": 0.1724131868131868,
+      "acceleration_y": 0.1340991452991453,
+      "acceleration_z": 9.731766544566543,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081032.575156,
+      "timestamp_iso": "2025-09-16T20:50:32.575156Z",
+      "acceleration_x": 0.2490412698412698,
+      "acceleration_y": 0.07662808302808302,
+      "acceleration_z": 9.750923565323564,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081032.59667,
+      "timestamp_iso": "2025-09-16T20:50:32.596670Z",
+      "acceleration_x": 0.2490412698412698,
+      "acceleration_y": 0.057471062271062266,
+      "acceleration_z": 9.731766544566543,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081032.618182,
+      "timestamp_iso": "2025-09-16T20:50:32.618182Z",
+      "acceleration_x": 0.22988424908424906,
+      "acceleration_y": 0.057471062271062266,
+      "acceleration_z": 9.770080586080585,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081032.6398208,
+      "timestamp_iso": "2025-09-16T20:50:32.639821Z",
+      "acceleration_x": 0.19157020757020754,
+      "acceleration_y": 0.07662808302808302,
+      "acceleration_z": 9.770080586080585,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081032.6613815,
+      "timestamp_iso": "2025-09-16T20:50:32.661381Z",
+      "acceleration_x": 0.2490412698412698,
+      "acceleration_y": 0.15325616605616604,
+      "acceleration_z": 9.980807814407813,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081032.6828768,
+      "timestamp_iso": "2025-09-16T20:50:32.682877Z",
+      "acceleration_x": 0.28735531135531134,
+      "acceleration_y": 0.11494212454212453,
+      "acceleration_z": 9.789237606837606,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081032.7043533,
+      "timestamp_iso": "2025-09-16T20:50:32.704353Z",
+      "acceleration_x": 0.21072722832722832,
+      "acceleration_y": 0.09578510378510377,
+      "acceleration_z": 9.789237606837606,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081032.725843,
+      "timestamp_iso": "2025-09-16T20:50:32.725843Z",
+      "acceleration_x": 0.1724131868131868,
+      "acceleration_y": 0.09578510378510377,
+      "acceleration_z": 9.731766544566543,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081032.7474291,
+      "timestamp_iso": "2025-09-16T20:50:32.747429Z",
+      "acceleration_x": 0.19157020757020754,
+      "acceleration_y": 0.1340991452991453,
+      "acceleration_z": 9.789237606837606,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081032.7690017,
+      "timestamp_iso": "2025-09-16T20:50:32.769002Z",
+      "acceleration_x": 0.2490412698412698,
+      "acceleration_y": 0.11494212454212453,
+      "acceleration_z": 9.750923565323564,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081032.7905948,
+      "timestamp_iso": "2025-09-16T20:50:32.790595Z",
+      "acceleration_x": 0.22988424908424906,
+      "acceleration_y": 0.057471062271062266,
+      "acceleration_z": 9.750923565323564,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081032.812167,
+      "timestamp_iso": "2025-09-16T20:50:32.812167Z",
+      "acceleration_x": 0.11494212454212453,
+      "acceleration_y": 0.07662808302808302,
+      "acceleration_z": 9.655138461538462,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081032.8336818,
+      "timestamp_iso": "2025-09-16T20:50:32.833682Z",
+      "acceleration_x": 0.1724131868131868,
+      "acceleration_y": 0.1340991452991453,
+      "acceleration_z": 9.693452503052503,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081032.8551567,
+      "timestamp_iso": "2025-09-16T20:50:32.855157Z",
+      "acceleration_x": 0.19157020757020754,
+      "acceleration_y": 0.15325616605616604,
+      "acceleration_z": 9.731766544566543,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081032.8766308,
+      "timestamp_iso": "2025-09-16T20:50:32.876631Z",
+      "acceleration_x": 0.2490412698412698,
+      "acceleration_y": 0.09578510378510377,
+      "acceleration_z": 9.750923565323564,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081032.8981066,
+      "timestamp_iso": "2025-09-16T20:50:32.898107Z",
+      "acceleration_x": 0.2681982905982906,
+      "acceleration_y": 0.09578510378510377,
+      "acceleration_z": 9.712609523809522,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081032.9195805,
+      "timestamp_iso": "2025-09-16T20:50:32.919580Z",
+      "acceleration_x": 0.2490412698412698,
+      "acceleration_y": 0.07662808302808302,
+      "acceleration_z": 9.750923565323564,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081032.9410536,
+      "timestamp_iso": "2025-09-16T20:50:32.941054Z",
+      "acceleration_x": 0.22988424908424906,
+      "acceleration_y": 0.11494212454212453,
+      "acceleration_z": 9.712609523809522,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081032.9625309,
+      "timestamp_iso": "2025-09-16T20:50:32.962531Z",
+      "acceleration_x": 0.21072722832722832,
+      "acceleration_y": 0.057471062271062266,
+      "acceleration_z": 9.731766544566543,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081032.9840024,
+      "timestamp_iso": "2025-09-16T20:50:32.984002Z",
+      "acceleration_x": 0.21072722832722832,
+      "acceleration_y": 0.1340991452991453,
+      "acceleration_z": 9.693452503052503,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081033.0055113,
+      "timestamp_iso": "2025-09-16T20:50:33.005511Z",
+      "acceleration_x": 0.21072722832722832,
+      "acceleration_y": 0.07662808302808302,
+      "acceleration_z": 9.712609523809522,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081033.0270307,
+      "timestamp_iso": "2025-09-16T20:50:33.027031Z",
+      "acceleration_x": 0.21072722832722832,
+      "acceleration_y": 0.11494212454212453,
+      "acceleration_z": 9.712609523809522,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081033.0485237,
+      "timestamp_iso": "2025-09-16T20:50:33.048524Z",
+      "acceleration_x": 0.2681982905982906,
+      "acceleration_y": 0.1724131868131868,
+      "acceleration_z": 9.693452503052503,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081033.0718322,
+      "timestamp_iso": "2025-09-16T20:50:33.071832Z",
+      "acceleration_x": 0.19157020757020754,
+      "acceleration_y": 0.11494212454212453,
+      "acceleration_z": 9.731766544566543,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081033.095119,
+      "timestamp_iso": "2025-09-16T20:50:33.095119Z",
+      "acceleration_x": 0.22988424908424906,
+      "acceleration_y": 0.11494212454212453,
+      "acceleration_z": 9.731766544566543,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081033.11838,
+      "timestamp_iso": "2025-09-16T20:50:33.118380Z",
+      "acceleration_x": 0.19157020757020754,
+      "acceleration_y": 0.09578510378510377,
+      "acceleration_z": 9.750923565323564,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081033.1416438,
+      "timestamp_iso": "2025-09-16T20:50:33.141644Z",
+      "acceleration_x": 0.21072722832722832,
+      "acceleration_y": 0.1724131868131868,
+      "acceleration_z": 9.34862612942613,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081033.1653152,
+      "timestamp_iso": "2025-09-16T20:50:33.165315Z",
+      "acceleration_x": 0.21072722832722832,
+      "acceleration_y": 0.15325616605616604,
+      "acceleration_z": 9.655138461538462,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081033.1890051,
+      "timestamp_iso": "2025-09-16T20:50:33.189005Z",
+      "acceleration_x": 0.22988424908424906,
+      "acceleration_y": 0.09578510378510377,
+      "acceleration_z": 9.674295482295483,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081033.2127795,
+      "timestamp_iso": "2025-09-16T20:50:33.212780Z",
+      "acceleration_x": 0.2490412698412698,
+      "acceleration_y": 0.21072722832722832,
+      "acceleration_z": 9.635981440781439,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081033.23647,
+      "timestamp_iso": "2025-09-16T20:50:33.236470Z",
+      "acceleration_x": 0.2490412698412698,
+      "acceleration_y": 0.09578510378510377,
+      "acceleration_z": 9.693452503052503,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081033.2601452,
+      "timestamp_iso": "2025-09-16T20:50:33.260145Z",
+      "acceleration_x": 0.19157020757020754,
+      "acceleration_y": 0.07662808302808302,
+      "acceleration_z": 9.712609523809522,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081033.283823,
+      "timestamp_iso": "2025-09-16T20:50:33.283823Z",
+      "acceleration_x": 0.21072722832722832,
+      "acceleration_y": 0.1724131868131868,
+      "acceleration_z": 9.808394627594627,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081033.3075242,
+      "timestamp_iso": "2025-09-16T20:50:33.307524Z",
+      "acceleration_x": 0.2490412698412698,
+      "acceleration_y": 0.1340991452991453,
+      "acceleration_z": 9.770080586080585,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081033.331203,
+      "timestamp_iso": "2025-09-16T20:50:33.331203Z",
+      "acceleration_x": 0.21072722832722832,
+      "acceleration_y": 0.1340991452991453,
+      "acceleration_z": 9.731766544566543,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081033.3549101,
+      "timestamp_iso": "2025-09-16T20:50:33.354910Z",
+      "acceleration_x": 0.2681982905982906,
+      "acceleration_y": 0.1340991452991453,
+      "acceleration_z": 9.770080586080585,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081033.3785923,
+      "timestamp_iso": "2025-09-16T20:50:33.378592Z",
+      "acceleration_x": 0.19157020757020754,
+      "acceleration_y": 0.11494212454212453,
+      "acceleration_z": 9.731766544566543,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081033.4022677,
+      "timestamp_iso": "2025-09-16T20:50:33.402268Z",
+      "acceleration_x": 0.3065123321123321,
+      "acceleration_y": 0.11494212454212453,
+      "acceleration_z": 9.693452503052503,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081033.425941,
+      "timestamp_iso": "2025-09-16T20:50:33.425941Z",
+      "acceleration_x": 0.21072722832722832,
+      "acceleration_y": 0.09578510378510377,
+      "acceleration_z": 9.712609523809522,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081033.4496706,
+      "timestamp_iso": "2025-09-16T20:50:33.449671Z",
+      "acceleration_x": 0.22988424908424906,
+      "acceleration_y": 0.11494212454212453,
+      "acceleration_z": 9.789237606837606,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081033.4733522,
+      "timestamp_iso": "2025-09-16T20:50:33.473352Z",
+      "acceleration_x": 0.21072722832722832,
+      "acceleration_y": 0.15325616605616604,
+      "acceleration_z": 9.597667399267397,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081033.4970348,
+      "timestamp_iso": "2025-09-16T20:50:33.497035Z",
+      "acceleration_x": 0.2490412698412698,
+      "acceleration_y": 0.09578510378510377,
+      "acceleration_z": 9.655138461538462,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081033.5207117,
+      "timestamp_iso": "2025-09-16T20:50:33.520712Z",
+      "acceleration_x": 0.28735531135531134,
+      "acceleration_y": 0.07662808302808302,
+      "acceleration_z": 9.712609523809522,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081033.544422,
+      "timestamp_iso": "2025-09-16T20:50:33.544422Z",
+      "acceleration_x": 0.32566935286935284,
+      "acceleration_y": 0.11494212454212453,
+      "acceleration_z": 9.501882295482295,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081033.5681221,
+      "timestamp_iso": "2025-09-16T20:50:33.568122Z",
+      "acceleration_x": 0.2490412698412698,
+      "acceleration_y": 0.11494212454212453,
+      "acceleration_z": 9.693452503052503,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081033.5918748,
+      "timestamp_iso": "2025-09-16T20:50:33.591875Z",
+      "acceleration_x": 0.19157020757020754,
+      "acceleration_y": 0.11494212454212453,
+      "acceleration_z": 9.712609523809522,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081033.6155918,
+      "timestamp_iso": "2025-09-16T20:50:33.615592Z",
+      "acceleration_x": 0.2490412698412698,
+      "acceleration_y": 0.1340991452991453,
+      "acceleration_z": 9.655138461538462,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081033.6392937,
+      "timestamp_iso": "2025-09-16T20:50:33.639294Z",
+      "acceleration_x": 0.2681982905982906,
+      "acceleration_y": 0.11494212454212453,
+      "acceleration_z": 9.712609523809522,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081033.662706,
+      "timestamp_iso": "2025-09-16T20:50:33.662706Z",
+      "acceleration_x": 0.28735531135531134,
+      "acceleration_y": 0.11494212454212453,
+      "acceleration_z": 9.712609523809522,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081033.6859798,
+      "timestamp_iso": "2025-09-16T20:50:33.685980Z",
+      "acceleration_x": 0.3065123321123321,
+      "acceleration_y": 0.15325616605616604,
+      "acceleration_z": 9.597667399267397,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081033.7092557,
+      "timestamp_iso": "2025-09-16T20:50:33.709256Z",
+      "acceleration_x": 0.22988424908424906,
+      "acceleration_y": 0.09578510378510377,
+      "acceleration_z": 9.808394627594627,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081033.7325153,
+      "timestamp_iso": "2025-09-16T20:50:33.732515Z",
+      "acceleration_x": 0.19157020757020754,
+      "acceleration_y": 0.1340991452991453,
+      "acceleration_z": 9.750923565323564,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081033.7558577,
+      "timestamp_iso": "2025-09-16T20:50:33.755858Z",
+      "acceleration_x": 0.21072722832722832,
+      "acceleration_y": 0.0,
+      "acceleration_z": 9.770080586080585,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081033.7791352,
+      "timestamp_iso": "2025-09-16T20:50:33.779135Z",
+      "acceleration_x": 0.22988424908424906,
+      "acceleration_y": 0.057471062271062266,
+      "acceleration_z": 9.731766544566543,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081033.8023975,
+      "timestamp_iso": "2025-09-16T20:50:33.802397Z",
+      "acceleration_x": 0.2681982905982906,
+      "acceleration_y": 0.15325616605616604,
+      "acceleration_z": 9.655138461538462,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081033.825658,
+      "timestamp_iso": "2025-09-16T20:50:33.825658Z",
+      "acceleration_x": 0.3065123321123321,
+      "acceleration_y": 0.19157020757020754,
+      "acceleration_z": 9.731766544566543,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081033.848927,
+      "timestamp_iso": "2025-09-16T20:50:33.848927Z",
+      "acceleration_x": 0.28735531135531134,
+      "acceleration_y": 0.1340991452991453,
+      "acceleration_z": 9.635981440781439,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081033.8726084,
+      "timestamp_iso": "2025-09-16T20:50:33.872608Z",
+      "acceleration_x": 0.19157020757020754,
+      "acceleration_y": 0.11494212454212453,
+      "acceleration_z": 9.789237606837606,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081033.896284,
+      "timestamp_iso": "2025-09-16T20:50:33.896284Z",
+      "acceleration_x": 0.36398339438339433,
+      "acceleration_y": 0.11494212454212453,
+      "acceleration_z": 9.597667399267397,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081033.9200037,
+      "timestamp_iso": "2025-09-16T20:50:33.920004Z",
+      "acceleration_x": 0.28735531135531134,
+      "acceleration_y": 0.15325616605616604,
+      "acceleration_z": 9.693452503052503,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081033.9436784,
+      "timestamp_iso": "2025-09-16T20:50:33.943678Z",
+      "acceleration_x": 0.2490412698412698,
+      "acceleration_y": 0.1340991452991453,
+      "acceleration_z": 9.635981440781439,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081033.967353,
+      "timestamp_iso": "2025-09-16T20:50:33.967353Z",
+      "acceleration_x": 0.19157020757020754,
+      "acceleration_y": 0.11494212454212453,
+      "acceleration_z": 9.712609523809522,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081033.9910302,
+      "timestamp_iso": "2025-09-16T20:50:33.991030Z",
+      "acceleration_x": 0.15325616605616604,
+      "acceleration_y": 0.07662808302808302,
+      "acceleration_z": 9.712609523809522,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081034.0147026,
+      "timestamp_iso": "2025-09-16T20:50:34.014703Z",
+      "acceleration_x": 0.19157020757020754,
+      "acceleration_y": 0.07662808302808302,
+      "acceleration_z": 9.942493772893771,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081034.038379,
+      "timestamp_iso": "2025-09-16T20:50:34.038379Z",
+      "acceleration_x": 0.2681982905982906,
+      "acceleration_y": 0.07662808302808302,
+      "acceleration_z": 9.731766544566543,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081034.0620496,
+      "timestamp_iso": "2025-09-16T20:50:34.062050Z",
+      "acceleration_x": 0.28735531135531134,
+      "acceleration_y": 0.057471062271062266,
+      "acceleration_z": 9.789237606837606,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081034.0857558,
+      "timestamp_iso": "2025-09-16T20:50:34.085756Z",
+      "acceleration_x": 0.42145445665445663,
+      "acceleration_y": 0.09578510378510377,
+      "acceleration_z": 9.846708669108668,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081034.1094599,
+      "timestamp_iso": "2025-09-16T20:50:34.109460Z",
+      "acceleration_x": 0.2681982905982906,
+      "acceleration_y": 0.11494212454212453,
+      "acceleration_z": 9.789237606837606,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081034.133136,
+      "timestamp_iso": "2025-09-16T20:50:34.133136Z",
+      "acceleration_x": 0.19157020757020754,
+      "acceleration_y": 0.1724131868131868,
+      "acceleration_z": 9.712609523809522,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081034.1568446,
+      "timestamp_iso": "2025-09-16T20:50:34.156845Z",
+      "acceleration_x": 0.32566935286935284,
+      "acceleration_y": 0.1340991452991453,
+      "acceleration_z": 9.750923565323564,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081034.180525,
+      "timestamp_iso": "2025-09-16T20:50:34.180525Z",
+      "acceleration_x": 0.21072722832722832,
+      "acceleration_y": 0.11494212454212453,
+      "acceleration_z": 9.770080586080585,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081034.2042,
+      "timestamp_iso": "2025-09-16T20:50:34.204200Z",
+      "acceleration_x": 0.15325616605616604,
+      "acceleration_y": 0.1724131868131868,
+      "acceleration_z": 9.770080586080585,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081034.2278726,
+      "timestamp_iso": "2025-09-16T20:50:34.227873Z",
+      "acceleration_x": 0.32566935286935284,
+      "acceleration_y": 0.19157020757020754,
+      "acceleration_z": 9.559353357753357,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081034.251554,
+      "timestamp_iso": "2025-09-16T20:50:34.251554Z",
+      "acceleration_x": 0.3065123321123321,
+      "acceleration_y": 0.09578510378510377,
+      "acceleration_z": 9.674295482295483,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081034.2752337,
+      "timestamp_iso": "2025-09-16T20:50:34.275234Z",
+      "acceleration_x": 0.2681982905982906,
+      "acceleration_y": 0.11494212454212453,
+      "acceleration_z": 9.693452503052503,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081034.29891,
+      "timestamp_iso": "2025-09-16T20:50:34.298910Z",
+      "acceleration_x": 0.2681982905982906,
+      "acceleration_y": 0.07662808302808302,
+      "acceleration_z": 9.731766544566543,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081034.3225863,
+      "timestamp_iso": "2025-09-16T20:50:34.322586Z",
+      "acceleration_x": 0.19157020757020754,
+      "acceleration_y": 0.07662808302808302,
+      "acceleration_z": 9.674295482295483,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081034.3462505,
+      "timestamp_iso": "2025-09-16T20:50:34.346251Z",
+      "acceleration_x": 0.2490412698412698,
+      "acceleration_y": 0.07662808302808302,
+      "acceleration_z": 9.750923565323564,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081034.369954,
+      "timestamp_iso": "2025-09-16T20:50:34.369954Z",
+      "acceleration_x": 0.2490412698412698,
+      "acceleration_y": 0.07662808302808302,
+      "acceleration_z": 9.693452503052503,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081034.3936505,
+      "timestamp_iso": "2025-09-16T20:50:34.393651Z",
+      "acceleration_x": 0.28735531135531134,
+      "acceleration_y": 0.09578510378510377,
+      "acceleration_z": 9.655138461538462,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081034.4173305,
+      "timestamp_iso": "2025-09-16T20:50:34.417331Z",
+      "acceleration_x": 0.22988424908424906,
+      "acceleration_y": 0.057471062271062266,
+      "acceleration_z": 9.904179731379731,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081034.4410045,
+      "timestamp_iso": "2025-09-16T20:50:34.441005Z",
+      "acceleration_x": 0.2490412698412698,
+      "acceleration_y": 0.1340991452991453,
+      "acceleration_z": 9.712609523809522,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081034.4647245,
+      "timestamp_iso": "2025-09-16T20:50:34.464725Z",
+      "acceleration_x": 0.2490412698412698,
+      "acceleration_y": 0.1340991452991453,
+      "acceleration_z": 9.770080586080585,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081034.4884036,
+      "timestamp_iso": "2025-09-16T20:50:34.488404Z",
+      "acceleration_x": 0.3448263736263736,
+      "acceleration_y": 0.07662808302808302,
+      "acceleration_z": 10.038278876678875,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081034.5121274,
+      "timestamp_iso": "2025-09-16T20:50:34.512127Z",
+      "acceleration_x": 0.19157020757020754,
+      "acceleration_y": 0.07662808302808302,
+      "acceleration_z": 9.789237606837606,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081034.5358026,
+      "timestamp_iso": "2025-09-16T20:50:34.535803Z",
+      "acceleration_x": 0.22988424908424906,
+      "acceleration_y": 0.11494212454212453,
+      "acceleration_z": 9.712609523809522,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081034.5595067,
+      "timestamp_iso": "2025-09-16T20:50:34.559507Z",
+      "acceleration_x": 0.21072722832722832,
+      "acceleration_y": 0.09578510378510377,
+      "acceleration_z": 9.770080586080585,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081034.583206,
+      "timestamp_iso": "2025-09-16T20:50:34.583206Z",
+      "acceleration_x": 0.21072722832722832,
+      "acceleration_y": 0.11494212454212453,
+      "acceleration_z": 9.731766544566543,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081034.6069348,
+      "timestamp_iso": "2025-09-16T20:50:34.606935Z",
+      "acceleration_x": 0.3065123321123321,
+      "acceleration_y": 0.1340991452991453,
+      "acceleration_z": 9.731766544566543,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081034.6306443,
+      "timestamp_iso": "2025-09-16T20:50:34.630644Z",
+      "acceleration_x": 0.3448263736263736,
+      "acceleration_y": 0.15325616605616604,
+      "acceleration_z": 9.693452503052503,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081034.6545708,
+      "timestamp_iso": "2025-09-16T20:50:34.654571Z",
+      "acceleration_x": 0.22988424908424906,
+      "acceleration_y": 0.15325616605616604,
+      "acceleration_z": 9.674295482295483,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081034.6771984,
+      "timestamp_iso": "2025-09-16T20:50:34.677198Z",
+      "acceleration_x": 0.19157020757020754,
+      "acceleration_y": 0.1340991452991453,
+      "acceleration_z": 9.693452503052503,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081034.6996868,
+      "timestamp_iso": "2025-09-16T20:50:34.699687Z",
+      "acceleration_x": 0.1340991452991453,
+      "acceleration_y": 0.09578510378510377,
+      "acceleration_z": 9.770080586080585,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081034.7221582,
+      "timestamp_iso": "2025-09-16T20:50:34.722158Z",
+      "acceleration_x": 0.15325616605616604,
+      "acceleration_y": 0.09578510378510377,
+      "acceleration_z": 9.731766544566543,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081034.7447164,
+      "timestamp_iso": "2025-09-16T20:50:34.744716Z",
+      "acceleration_x": 0.22988424908424906,
+      "acceleration_y": 0.03831404151404151,
+      "acceleration_z": 9.770080586080585,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081034.7676952,
+      "timestamp_iso": "2025-09-16T20:50:34.767695Z",
+      "acceleration_x": 0.21072722832722832,
+      "acceleration_y": 0.07662808302808302,
+      "acceleration_z": 9.693452503052503,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081034.7907996,
+      "timestamp_iso": "2025-09-16T20:50:34.790800Z",
+      "acceleration_x": 0.22988424908424906,
+      "acceleration_y": 0.19157020757020754,
+      "acceleration_z": 9.731766544566543,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081034.8138998,
+      "timestamp_iso": "2025-09-16T20:50:34.813900Z",
+      "acceleration_x": 0.28735531135531134,
+      "acceleration_y": 0.07662808302808302,
+      "acceleration_z": 9.693452503052503,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081034.83695,
+      "timestamp_iso": "2025-09-16T20:50:34.836950Z",
+      "acceleration_x": 0.2490412698412698,
+      "acceleration_y": 0.11494212454212453,
+      "acceleration_z": 9.674295482295483,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081034.8599157,
+      "timestamp_iso": "2025-09-16T20:50:34.859916Z",
+      "acceleration_x": 0.28735531135531134,
+      "acceleration_y": 0.057471062271062266,
+      "acceleration_z": 9.846708669108668,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081034.8831947,
+      "timestamp_iso": "2025-09-16T20:50:34.883195Z",
+      "acceleration_x": 0.1724131868131868,
+      "acceleration_y": 0.09578510378510377,
+      "acceleration_z": 9.770080586080585,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081034.9064593,
+      "timestamp_iso": "2025-09-16T20:50:34.906459Z",
+      "acceleration_x": 0.1724131868131868,
+      "acceleration_y": 0.09578510378510377,
+      "acceleration_z": 9.731766544566543,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081034.9297621,
+      "timestamp_iso": "2025-09-16T20:50:34.929762Z",
+      "acceleration_x": 0.11494212454212453,
+      "acceleration_y": 0.11494212454212453,
+      "acceleration_z": 9.655138461538462,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081034.9530342,
+      "timestamp_iso": "2025-09-16T20:50:34.953034Z",
+      "acceleration_x": 0.2490412698412698,
+      "acceleration_y": 0.09578510378510377,
+      "acceleration_z": 9.750923565323564,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081034.9767404,
+      "timestamp_iso": "2025-09-16T20:50:34.976740Z",
+      "acceleration_x": 0.28735531135531134,
+      "acceleration_y": 0.15325616605616604,
+      "acceleration_z": 9.712609523809522,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081035.0004168,
+      "timestamp_iso": "2025-09-16T20:50:35.000417Z",
+      "acceleration_x": 0.19157020757020754,
+      "acceleration_y": 0.19157020757020754,
+      "acceleration_z": 9.540196336996337,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081035.0241232,
+      "timestamp_iso": "2025-09-16T20:50:35.024123Z",
+      "acceleration_x": 0.19157020757020754,
+      "acceleration_y": 0.15325616605616604,
+      "acceleration_z": 9.597667399267397,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081035.047828,
+      "timestamp_iso": "2025-09-16T20:50:35.047828Z",
+      "acceleration_x": 0.19157020757020754,
+      "acceleration_y": 0.07662808302808302,
+      "acceleration_z": 9.712609523809522,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081035.0715315,
+      "timestamp_iso": "2025-09-16T20:50:35.071532Z",
+      "acceleration_x": 0.09578510378510377,
+      "acceleration_y": 0.11494212454212453,
+      "acceleration_z": 9.674295482295483,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081035.0952048,
+      "timestamp_iso": "2025-09-16T20:50:35.095205Z",
+      "acceleration_x": 0.1724131868131868,
+      "acceleration_y": 0.09578510378510377,
+      "acceleration_z": 9.712609523809522,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081035.1188893,
+      "timestamp_iso": "2025-09-16T20:50:35.118889Z",
+      "acceleration_x": 0.21072722832722832,
+      "acceleration_y": 0.057471062271062266,
+      "acceleration_z": 9.789237606837606,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081035.14257,
+      "timestamp_iso": "2025-09-16T20:50:35.142570Z",
+      "acceleration_x": 0.2490412698412698,
+      "acceleration_y": 0.09578510378510377,
+      "acceleration_z": 9.808394627594627,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081035.1662438,
+      "timestamp_iso": "2025-09-16T20:50:35.166244Z",
+      "acceleration_x": 0.21072722832722832,
+      "acceleration_y": 0.11494212454212453,
+      "acceleration_z": 9.731766544566543,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081035.18992,
+      "timestamp_iso": "2025-09-16T20:50:35.189920Z",
+      "acceleration_x": 0.21072722832722832,
+      "acceleration_y": 0.21072722832722832,
+      "acceleration_z": 9.674295482295483,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081035.2135923,
+      "timestamp_iso": "2025-09-16T20:50:35.213592Z",
+      "acceleration_x": 0.22988424908424906,
+      "acceleration_y": 0.1724131868131868,
+      "acceleration_z": 9.789237606837606,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081035.2373033,
+      "timestamp_iso": "2025-09-16T20:50:35.237303Z",
+      "acceleration_x": 0.1724131868131868,
+      "acceleration_y": 0.11494212454212453,
+      "acceleration_z": 9.674295482295483,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081035.2610068,
+      "timestamp_iso": "2025-09-16T20:50:35.261007Z",
+      "acceleration_x": 0.19157020757020754,
+      "acceleration_y": 0.2490412698412698,
+      "acceleration_z": 9.693452503052503,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081035.2847168,
+      "timestamp_iso": "2025-09-16T20:50:35.284717Z",
+      "acceleration_x": 0.2490412698412698,
+      "acceleration_y": 0.09578510378510377,
+      "acceleration_z": 9.693452503052503,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081035.308393,
+      "timestamp_iso": "2025-09-16T20:50:35.308393Z",
+      "acceleration_x": 0.2490412698412698,
+      "acceleration_y": 0.1340991452991453,
+      "acceleration_z": 9.712609523809522,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081035.3320968,
+      "timestamp_iso": "2025-09-16T20:50:35.332097Z",
+      "acceleration_x": 0.3448263736263736,
+      "acceleration_y": 0.09578510378510377,
+      "acceleration_z": 9.808394627594627,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081035.3557725,
+      "timestamp_iso": "2025-09-16T20:50:35.355772Z",
+      "acceleration_x": 0.32566935286935284,
+      "acceleration_y": 0.11494212454212453,
+      "acceleration_z": 9.731766544566543,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081035.379522,
+      "timestamp_iso": "2025-09-16T20:50:35.379522Z",
+      "acceleration_x": 0.2490412698412698,
+      "acceleration_y": 0.15325616605616604,
+      "acceleration_z": 9.693452503052503,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081035.4032018,
+      "timestamp_iso": "2025-09-16T20:50:35.403202Z",
+      "acceleration_x": 0.1724131868131868,
+      "acceleration_y": 0.07662808302808302,
+      "acceleration_z": 9.731766544566543,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081035.4268816,
+      "timestamp_iso": "2025-09-16T20:50:35.426882Z",
+      "acceleration_x": 0.21072722832722832,
+      "acceleration_y": 0.11494212454212453,
+      "acceleration_z": 9.674295482295483,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081035.4505563,
+      "timestamp_iso": "2025-09-16T20:50:35.450556Z",
+      "acceleration_x": 0.21072722832722832,
+      "acceleration_y": 0.09578510378510377,
+      "acceleration_z": 9.712609523809522,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081035.4742832,
+      "timestamp_iso": "2025-09-16T20:50:35.474283Z",
+      "acceleration_x": 0.22988424908424906,
+      "acceleration_y": 0.057471062271062266,
+      "acceleration_z": 9.693452503052503,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081035.4979613,
+      "timestamp_iso": "2025-09-16T20:50:35.497961Z",
+      "acceleration_x": 0.22988424908424906,
+      "acceleration_y": 0.09578510378510377,
+      "acceleration_z": 9.731766544566543,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081035.5216622,
+      "timestamp_iso": "2025-09-16T20:50:35.521662Z",
+      "acceleration_x": 0.28735531135531134,
+      "acceleration_y": 0.057471062271062266,
+      "acceleration_z": 10.057435897435896,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081035.5454016,
+      "timestamp_iso": "2025-09-16T20:50:35.545402Z",
+      "acceleration_x": 0.22988424908424906,
+      "acceleration_y": 0.1340991452991453,
+      "acceleration_z": 9.86586568986569,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081035.5691102,
+      "timestamp_iso": "2025-09-16T20:50:35.569110Z",
+      "acceleration_x": 0.2490412698412698,
+      "acceleration_y": 0.09578510378510377,
+      "acceleration_z": 9.712609523809522,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081035.59246,
+      "timestamp_iso": "2025-09-16T20:50:35.592460Z",
+      "acceleration_x": 0.2490412698412698,
+      "acceleration_y": 0.1340991452991453,
+      "acceleration_z": 9.731766544566543,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081035.6157284,
+      "timestamp_iso": "2025-09-16T20:50:35.615728Z",
+      "acceleration_x": 0.2681982905982906,
+      "acceleration_y": 0.11494212454212453,
+      "acceleration_z": 9.655138461538462,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081035.6390123,
+      "timestamp_iso": "2025-09-16T20:50:35.639012Z",
+      "acceleration_x": 0.2490412698412698,
+      "acceleration_y": 0.11494212454212453,
+      "acceleration_z": 9.635981440781439,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081035.662282,
+      "timestamp_iso": "2025-09-16T20:50:35.662282Z",
+      "acceleration_x": 0.4406114774114774,
+      "acceleration_y": 0.15325616605616604,
+      "acceleration_z": 9.444411233211232,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081035.6859596,
+      "timestamp_iso": "2025-09-16T20:50:35.685960Z",
+      "acceleration_x": 0.36398339438339433,
+      "acceleration_y": 0.15325616605616604,
+      "acceleration_z": 9.674295482295483,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081035.7096596,
+      "timestamp_iso": "2025-09-16T20:50:35.709660Z",
+      "acceleration_x": 0.2681982905982906,
+      "acceleration_y": 0.09578510378510377,
+      "acceleration_z": 9.750923565323564,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081035.7333665,
+      "timestamp_iso": "2025-09-16T20:50:35.733366Z",
+      "acceleration_x": 0.4022974358974359,
+      "acceleration_y": 0.15325616605616604,
+      "acceleration_z": 9.674295482295483,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081035.757105,
+      "timestamp_iso": "2025-09-16T20:50:35.757105Z",
+      "acceleration_x": 0.2490412698412698,
+      "acceleration_y": 0.07662808302808302,
+      "acceleration_z": 9.712609523809522,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081035.7807817,
+      "timestamp_iso": "2025-09-16T20:50:35.780782Z",
+      "acceleration_x": 0.21072722832722832,
+      "acceleration_y": 0.057471062271062266,
+      "acceleration_z": 9.712609523809522,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081035.804454,
+      "timestamp_iso": "2025-09-16T20:50:35.804454Z",
+      "acceleration_x": 0.1724131868131868,
+      "acceleration_y": 0.15325616605616604,
+      "acceleration_z": 9.444411233211232,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081035.8281531,
+      "timestamp_iso": "2025-09-16T20:50:35.828153Z",
+      "acceleration_x": 0.21072722832722832,
+      "acceleration_y": 0.11494212454212453,
+      "acceleration_z": 9.674295482295483,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081035.8518305,
+      "timestamp_iso": "2025-09-16T20:50:35.851830Z",
+      "acceleration_x": 0.2490412698412698,
+      "acceleration_y": 0.07662808302808302,
+      "acceleration_z": 9.712609523809522,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081035.8755324,
+      "timestamp_iso": "2025-09-16T20:50:35.875532Z",
+      "acceleration_x": 0.36398339438339433,
+      "acceleration_y": 0.057471062271062266,
+      "acceleration_z": 9.712609523809522,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081035.8992083,
+      "timestamp_iso": "2025-09-16T20:50:35.899208Z",
+      "acceleration_x": 0.2681982905982906,
+      "acceleration_y": 0.09578510378510377,
+      "acceleration_z": 9.731766544566543,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081035.9228818,
+      "timestamp_iso": "2025-09-16T20:50:35.922882Z",
+      "acceleration_x": 0.22988424908424906,
+      "acceleration_y": 0.1724131868131868,
+      "acceleration_z": 9.693452503052503,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081035.9465506,
+      "timestamp_iso": "2025-09-16T20:50:35.946551Z",
+      "acceleration_x": 0.2490412698412698,
+      "acceleration_y": 0.09578510378510377,
+      "acceleration_z": 9.770080586080585,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081035.970265,
+      "timestamp_iso": "2025-09-16T20:50:35.970265Z",
+      "acceleration_x": 0.2681982905982906,
+      "acceleration_y": 0.057471062271062266,
+      "acceleration_z": 9.770080586080585,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081035.9939482,
+      "timestamp_iso": "2025-09-16T20:50:35.993948Z",
+      "acceleration_x": 0.4022974358974359,
+      "acceleration_y": 0.07662808302808302,
+      "acceleration_z": 9.521039316239316,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081036.017615,
+      "timestamp_iso": "2025-09-16T20:50:36.017615Z",
+      "acceleration_x": 0.2681982905982906,
+      "acceleration_y": 0.07662808302808302,
+      "acceleration_z": 9.655138461538462,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081036.041318,
+      "timestamp_iso": "2025-09-16T20:50:36.041318Z",
+      "acceleration_x": 0.21072722832722832,
+      "acceleration_y": 0.07662808302808302,
+      "acceleration_z": 9.674295482295483,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081036.0650086,
+      "timestamp_iso": "2025-09-16T20:50:36.065009Z",
+      "acceleration_x": 0.36398339438339433,
+      "acceleration_y": 0.1340991452991453,
+      "acceleration_z": 9.559353357753357,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081036.0887125,
+      "timestamp_iso": "2025-09-16T20:50:36.088712Z",
+      "acceleration_x": 0.28735531135531134,
+      "acceleration_y": 0.07662808302808302,
+      "acceleration_z": 9.674295482295483,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081036.1123824,
+      "timestamp_iso": "2025-09-16T20:50:36.112382Z",
+      "acceleration_x": 0.22988424908424906,
+      "acceleration_y": 0.11494212454212453,
+      "acceleration_z": 9.731766544566543,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081036.1360698,
+      "timestamp_iso": "2025-09-16T20:50:36.136070Z",
+      "acceleration_x": 0.3065123321123321,
+      "acceleration_y": 0.15325616605616604,
+      "acceleration_z": 9.559353357753357,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081036.159762,
+      "timestamp_iso": "2025-09-16T20:50:36.159762Z",
+      "acceleration_x": 0.2490412698412698,
+      "acceleration_y": 0.1340991452991453,
+      "acceleration_z": 9.655138461538462,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081036.183335,
+      "timestamp_iso": "2025-09-16T20:50:36.183335Z",
+      "acceleration_x": 0.19157020757020754,
+      "acceleration_y": 0.09578510378510377,
+      "acceleration_z": 9.635981440781439,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081036.206601,
+      "timestamp_iso": "2025-09-16T20:50:36.206601Z",
+      "acceleration_x": 0.21072722832722832,
+      "acceleration_y": 0.11494212454212453,
+      "acceleration_z": 9.789237606837606,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081036.2298594,
+      "timestamp_iso": "2025-09-16T20:50:36.229859Z",
+      "acceleration_x": 0.22988424908424906,
+      "acceleration_y": 0.1340991452991453,
+      "acceleration_z": 9.712609523809522,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081036.2531133,
+      "timestamp_iso": "2025-09-16T20:50:36.253113Z",
+      "acceleration_x": 0.2681982905982906,
+      "acceleration_y": 0.1340991452991453,
+      "acceleration_z": 9.693452503052503,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081036.2763848,
+      "timestamp_iso": "2025-09-16T20:50:36.276385Z",
+      "acceleration_x": 0.2681982905982906,
+      "acceleration_y": 0.09578510378510377,
+      "acceleration_z": 9.635981440781439,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081036.3000996,
+      "timestamp_iso": "2025-09-16T20:50:36.300100Z",
+      "acceleration_x": 0.22988424908424906,
+      "acceleration_y": 0.11494212454212453,
+      "acceleration_z": 9.712609523809522,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081036.3237891,
+      "timestamp_iso": "2025-09-16T20:50:36.323789Z",
+      "acceleration_x": 0.2490412698412698,
+      "acceleration_y": 0.09578510378510377,
+      "acceleration_z": 9.731766544566543,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081036.347502,
+      "timestamp_iso": "2025-09-16T20:50:36.347502Z",
+      "acceleration_x": 0.2490412698412698,
+      "acceleration_y": 0.07662808302808302,
+      "acceleration_z": 9.655138461538462,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081036.371213,
+      "timestamp_iso": "2025-09-16T20:50:36.371213Z",
+      "acceleration_x": 0.19157020757020754,
+      "acceleration_y": 0.07662808302808302,
+      "acceleration_z": 9.674295482295483,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081036.3948877,
+      "timestamp_iso": "2025-09-16T20:50:36.394888Z",
+      "acceleration_x": 0.1724131868131868,
+      "acceleration_y": 0.1340991452991453,
+      "acceleration_z": 9.808394627594627,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081036.418566,
+      "timestamp_iso": "2025-09-16T20:50:36.418566Z",
+      "acceleration_x": 0.2681982905982906,
+      "acceleration_y": 0.11494212454212453,
+      "acceleration_z": 9.731766544566543,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081036.4422426,
+      "timestamp_iso": "2025-09-16T20:50:36.442243Z",
+      "acceleration_x": 0.19157020757020754,
+      "acceleration_y": 0.15325616605616604,
+      "acceleration_z": 9.693452503052503,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081036.465919,
+      "timestamp_iso": "2025-09-16T20:50:36.465919Z",
+      "acceleration_x": 0.057471062271062266,
+      "acceleration_y": 0.11494212454212453,
+      "acceleration_z": 9.731766544566543,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081036.4892535,
+      "timestamp_iso": "2025-09-16T20:50:36.489254Z",
+      "acceleration_x": 0.1724131868131868,
+      "acceleration_y": 0.07662808302808302,
+      "acceleration_z": 9.712609523809522,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081036.5125546,
+      "timestamp_iso": "2025-09-16T20:50:36.512555Z",
+      "acceleration_x": 0.2490412698412698,
+      "acceleration_y": 0.07662808302808302,
+      "acceleration_z": 9.712609523809522,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081036.5358496,
+      "timestamp_iso": "2025-09-16T20:50:36.535850Z",
+      "acceleration_x": 0.2681982905982906,
+      "acceleration_y": 0.11494212454212453,
+      "acceleration_z": 9.635981440781439,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081036.5591125,
+      "timestamp_iso": "2025-09-16T20:50:36.559113Z",
+      "acceleration_x": 0.21072722832722832,
+      "acceleration_y": 0.11494212454212453,
+      "acceleration_z": 9.731766544566543,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081036.5824401,
+      "timestamp_iso": "2025-09-16T20:50:36.582440Z",
+      "acceleration_x": 0.21072722832722832,
+      "acceleration_y": 0.09578510378510377,
+      "acceleration_z": 9.712609523809522,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081036.6061597,
+      "timestamp_iso": "2025-09-16T20:50:36.606160Z",
+      "acceleration_x": 0.22988424908424906,
+      "acceleration_y": 0.07662808302808302,
+      "acceleration_z": 9.86586568986569,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081036.629875,
+      "timestamp_iso": "2025-09-16T20:50:36.629875Z",
+      "acceleration_x": 0.2490412698412698,
+      "acceleration_y": 0.03831404151404151,
+      "acceleration_z": 9.731766544566543,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081036.653865,
+      "timestamp_iso": "2025-09-16T20:50:36.653865Z",
+      "acceleration_x": 0.21072722832722832,
+      "acceleration_y": 0.09578510378510377,
+      "acceleration_z": 9.789237606837606,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081036.6777577,
+      "timestamp_iso": "2025-09-16T20:50:36.677758Z",
+      "acceleration_x": 0.09578510378510377,
+      "acceleration_y": 0.1724131868131868,
+      "acceleration_z": 9.731766544566543,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081036.699962,
+      "timestamp_iso": "2025-09-16T20:50:36.699962Z",
+      "acceleration_x": 0.1724131868131868,
+      "acceleration_y": 0.09578510378510377,
+      "acceleration_z": 9.731766544566543,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081036.722081,
+      "timestamp_iso": "2025-09-16T20:50:36.722081Z",
+      "acceleration_x": 0.22988424908424906,
+      "acceleration_y": 0.11494212454212453,
+      "acceleration_z": 9.655138461538462,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081036.7443128,
+      "timestamp_iso": "2025-09-16T20:50:36.744313Z",
+      "acceleration_x": 0.22988424908424906,
+      "acceleration_y": 0.11494212454212453,
+      "acceleration_z": 9.712609523809522,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081036.7665513,
+      "timestamp_iso": "2025-09-16T20:50:36.766551Z",
+      "acceleration_x": 0.21072722832722832,
+      "acceleration_y": 0.1724131868131868,
+      "acceleration_z": 9.655138461538462,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081036.79038,
+      "timestamp_iso": "2025-09-16T20:50:36.790380Z",
+      "acceleration_x": 0.2490412698412698,
+      "acceleration_y": 0.1340991452991453,
+      "acceleration_z": 9.655138461538462,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081036.8142004,
+      "timestamp_iso": "2025-09-16T20:50:36.814200Z",
+      "acceleration_x": 0.22988424908424906,
+      "acceleration_y": 0.1724131868131868,
+      "acceleration_z": 9.693452503052503,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081036.8379123,
+      "timestamp_iso": "2025-09-16T20:50:36.837912Z",
+      "acceleration_x": 0.07662808302808302,
+      "acceleration_y": 0.11494212454212453,
+      "acceleration_z": 9.961650793650792,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081036.8615925,
+      "timestamp_iso": "2025-09-16T20:50:36.861593Z",
+      "acceleration_x": 0.19157020757020754,
+      "acceleration_y": 0.09578510378510377,
+      "acceleration_z": 9.770080586080585,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081036.8854008,
+      "timestamp_iso": "2025-09-16T20:50:36.885401Z",
+      "acceleration_x": 0.19157020757020754,
+      "acceleration_y": 0.11494212454212453,
+      "acceleration_z": 9.693452503052503,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081036.9086652,
+      "timestamp_iso": "2025-09-16T20:50:36.908665Z",
+      "acceleration_x": 0.19157020757020754,
+      "acceleration_y": 0.09578510378510377,
+      "acceleration_z": 9.712609523809522,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081036.931917,
+      "timestamp_iso": "2025-09-16T20:50:36.931917Z",
+      "acceleration_x": 0.21072722832722832,
+      "acceleration_y": 0.09578510378510377,
+      "acceleration_z": 9.750923565323564,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081036.9551818,
+      "timestamp_iso": "2025-09-16T20:50:36.955182Z",
+      "acceleration_x": 0.2490412698412698,
+      "acceleration_y": 0.07662808302808302,
+      "acceleration_z": 9.731766544566543,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081036.9784563,
+      "timestamp_iso": "2025-09-16T20:50:36.978456Z",
+      "acceleration_x": 0.1340991452991453,
+      "acceleration_y": 0.03831404151404151,
+      "acceleration_z": 9.980807814407813,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081037.0021331,
+      "timestamp_iso": "2025-09-16T20:50:37.002133Z",
+      "acceleration_x": 0.19157020757020754,
+      "acceleration_y": 0.09578510378510377,
+      "acceleration_z": 9.808394627594627,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081037.025811,
+      "timestamp_iso": "2025-09-16T20:50:37.025811Z",
+      "acceleration_x": 0.21072722832722832,
+      "acceleration_y": 0.07662808302808302,
+      "acceleration_z": 9.770080586080585,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081037.049479,
+      "timestamp_iso": "2025-09-16T20:50:37.049479Z",
+      "acceleration_x": 0.1340991452991453,
+      "acceleration_y": 0.15325616605616604,
+      "acceleration_z": 9.92333675213675,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081037.0731978,
+      "timestamp_iso": "2025-09-16T20:50:37.073198Z",
+      "acceleration_x": 0.1724131868131868,
+      "acceleration_y": 0.11494212454212453,
+      "acceleration_z": 9.731766544566543,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081037.096915,
+      "timestamp_iso": "2025-09-16T20:50:37.096915Z",
+      "acceleration_x": 0.21072722832722832,
+      "acceleration_y": 0.09578510378510377,
+      "acceleration_z": 9.693452503052503,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081037.1206024,
+      "timestamp_iso": "2025-09-16T20:50:37.120602Z",
+      "acceleration_x": 0.19157020757020754,
+      "acceleration_y": 0.11494212454212453,
+      "acceleration_z": 9.674295482295483,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081037.144314,
+      "timestamp_iso": "2025-09-16T20:50:37.144314Z",
+      "acceleration_x": 0.32566935286935284,
+      "acceleration_y": 0.057471062271062266,
+      "acceleration_z": 9.693452503052503,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081037.168001,
+      "timestamp_iso": "2025-09-16T20:50:37.168001Z",
+      "acceleration_x": 0.28735531135531134,
+      "acceleration_y": 0.1724131868131868,
+      "acceleration_z": 9.731766544566543,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081037.1917274,
+      "timestamp_iso": "2025-09-16T20:50:37.191727Z",
+      "acceleration_x": 0.3448263736263736,
+      "acceleration_y": 0.09578510378510377,
+      "acceleration_z": 9.712609523809522,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081037.2154005,
+      "timestamp_iso": "2025-09-16T20:50:37.215400Z",
+      "acceleration_x": 0.2681982905982906,
+      "acceleration_y": 0.07662808302808302,
+      "acceleration_z": 9.712609523809522,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081037.2390707,
+      "timestamp_iso": "2025-09-16T20:50:37.239071Z",
+      "acceleration_x": 0.1724131868131868,
+      "acceleration_y": 0.15325616605616604,
+      "acceleration_z": 9.425254212454211,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081037.2627413,
+      "timestamp_iso": "2025-09-16T20:50:37.262741Z",
+      "acceleration_x": 0.22988424908424906,
+      "acceleration_y": 0.11494212454212453,
+      "acceleration_z": 9.635981440781439,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081037.2864368,
+      "timestamp_iso": "2025-09-16T20:50:37.286437Z",
+      "acceleration_x": 0.21072722832722832,
+      "acceleration_y": 0.11494212454212453,
+      "acceleration_z": 9.770080586080585,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081037.3101263,
+      "timestamp_iso": "2025-09-16T20:50:37.310126Z",
+      "acceleration_x": 0.3448263736263736,
+      "acceleration_y": 0.09578510378510377,
+      "acceleration_z": 9.674295482295483,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081037.333799,
+      "timestamp_iso": "2025-09-16T20:50:37.333799Z",
+      "acceleration_x": 0.3065123321123321,
+      "acceleration_y": 0.11494212454212453,
+      "acceleration_z": 9.693452503052503,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081037.3574681,
+      "timestamp_iso": "2025-09-16T20:50:37.357468Z",
+      "acceleration_x": 0.22988424908424906,
+      "acceleration_y": 0.057471062271062266,
+      "acceleration_z": 9.693452503052503,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081037.3811388,
+      "timestamp_iso": "2025-09-16T20:50:37.381139Z",
+      "acceleration_x": 0.1724131868131868,
+      "acceleration_y": 0.07662808302808302,
+      "acceleration_z": 9.789237606837606,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081037.4048169,
+      "timestamp_iso": "2025-09-16T20:50:37.404817Z",
+      "acceleration_x": 0.19157020757020754,
+      "acceleration_y": 0.057471062271062266,
+      "acceleration_z": 9.770080586080585,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081037.428498,
+      "timestamp_iso": "2025-09-16T20:50:37.428498Z",
+      "acceleration_x": 0.19157020757020754,
+      "acceleration_y": 0.11494212454212453,
+      "acceleration_z": 9.712609523809522,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081037.4521718,
+      "timestamp_iso": "2025-09-16T20:50:37.452172Z",
+      "acceleration_x": 0.1724131868131868,
+      "acceleration_y": 0.1340991452991453,
+      "acceleration_z": 9.750923565323564,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081037.475847,
+      "timestamp_iso": "2025-09-16T20:50:37.475847Z",
+      "acceleration_x": 0.19157020757020754,
+      "acceleration_y": 0.09578510378510377,
+      "acceleration_z": 9.750923565323564,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081037.499521,
+      "timestamp_iso": "2025-09-16T20:50:37.499521Z",
+      "acceleration_x": 0.1724131868131868,
+      "acceleration_y": 0.11494212454212453,
+      "acceleration_z": 9.635981440781439,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081037.5232165,
+      "timestamp_iso": "2025-09-16T20:50:37.523216Z",
+      "acceleration_x": 0.3065123321123321,
+      "acceleration_y": 0.15325616605616604,
+      "acceleration_z": 9.731766544566543,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081037.5469053,
+      "timestamp_iso": "2025-09-16T20:50:37.546905Z",
+      "acceleration_x": 0.22988424908424906,
+      "acceleration_y": 0.1340991452991453,
+      "acceleration_z": 9.674295482295483,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081037.5705793,
+      "timestamp_iso": "2025-09-16T20:50:37.570579Z",
+      "acceleration_x": 0.1340991452991453,
+      "acceleration_y": 0.1340991452991453,
+      "acceleration_z": 9.616824420024418,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081037.594287,
+      "timestamp_iso": "2025-09-16T20:50:37.594287Z",
+      "acceleration_x": 0.21072722832722832,
+      "acceleration_y": 0.1340991452991453,
+      "acceleration_z": 9.693452503052503,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081037.61796,
+      "timestamp_iso": "2025-09-16T20:50:37.617960Z",
+      "acceleration_x": 0.1724131868131868,
+      "acceleration_y": 0.09578510378510377,
+      "acceleration_z": 9.655138461538462,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081037.641589,
+      "timestamp_iso": "2025-09-16T20:50:37.641589Z",
+      "acceleration_x": 0.21072722832722832,
+      "acceleration_y": 0.11494212454212453,
+      "acceleration_z": 9.693452503052503,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081037.6653461,
+      "timestamp_iso": "2025-09-16T20:50:37.665346Z",
+      "acceleration_x": 0.21072722832722832,
+      "acceleration_y": 0.11494212454212453,
+      "acceleration_z": 9.750923565323564,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081037.6890805,
+      "timestamp_iso": "2025-09-16T20:50:37.689080Z",
+      "acceleration_x": 0.21072722832722832,
+      "acceleration_y": 0.11494212454212453,
+      "acceleration_z": 9.731766544566543,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081037.7127607,
+      "timestamp_iso": "2025-09-16T20:50:37.712761Z",
+      "acceleration_x": 0.2490412698412698,
+      "acceleration_y": 0.07662808302808302,
+      "acceleration_z": 9.808394627594627,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081037.736442,
+      "timestamp_iso": "2025-09-16T20:50:37.736442Z",
+      "acceleration_x": 0.22988424908424906,
+      "acceleration_y": 0.09578510378510377,
+      "acceleration_z": 9.750923565323564,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081037.7601206,
+      "timestamp_iso": "2025-09-16T20:50:37.760121Z",
+      "acceleration_x": 0.2490412698412698,
+      "acceleration_y": 0.1340991452991453,
+      "acceleration_z": 9.712609523809522,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081037.783795,
+      "timestamp_iso": "2025-09-16T20:50:37.783795Z",
+      "acceleration_x": 0.2490412698412698,
+      "acceleration_y": 0.1340991452991453,
+      "acceleration_z": 9.731766544566543,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081037.8075116,
+      "timestamp_iso": "2025-09-16T20:50:37.807512Z",
+      "acceleration_x": 0.2681982905982906,
+      "acceleration_y": 0.11494212454212453,
+      "acceleration_z": 9.712609523809522,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081037.8312078,
+      "timestamp_iso": "2025-09-16T20:50:37.831208Z",
+      "acceleration_x": 0.21072722832722832,
+      "acceleration_y": 0.11494212454212453,
+      "acceleration_z": 9.86586568986569,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081037.854889,
+      "timestamp_iso": "2025-09-16T20:50:37.854889Z",
+      "acceleration_x": 0.22988424908424906,
+      "acceleration_y": 0.07662808302808302,
+      "acceleration_z": 9.750923565323564,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081037.8785682,
+      "timestamp_iso": "2025-09-16T20:50:37.878568Z",
+      "acceleration_x": 0.1724131868131868,
+      "acceleration_y": 0.057471062271062266,
+      "acceleration_z": 9.693452503052503,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081037.9022424,
+      "timestamp_iso": "2025-09-16T20:50:37.902242Z",
+      "acceleration_x": 0.15325616605616604,
+      "acceleration_y": 0.15325616605616604,
+      "acceleration_z": 9.731766544566543,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081037.925914,
+      "timestamp_iso": "2025-09-16T20:50:37.925914Z",
+      "acceleration_x": 0.21072722832722832,
+      "acceleration_y": 0.11494212454212453,
+      "acceleration_z": 9.712609523809522,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081037.949583,
+      "timestamp_iso": "2025-09-16T20:50:37.949583Z",
+      "acceleration_x": 0.22988424908424906,
+      "acceleration_y": 0.09578510378510377,
+      "acceleration_z": 9.674295482295483,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081037.9732933,
+      "timestamp_iso": "2025-09-16T20:50:37.973293Z",
+      "acceleration_x": 0.2490412698412698,
+      "acceleration_y": 0.057471062271062266,
+      "acceleration_z": 9.88502271062271,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081037.9970033,
+      "timestamp_iso": "2025-09-16T20:50:37.997003Z",
+      "acceleration_x": 0.22988424908424906,
+      "acceleration_y": 0.11494212454212453,
+      "acceleration_z": 9.808394627594627,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081038.0207107,
+      "timestamp_iso": "2025-09-16T20:50:38.020711Z",
+      "acceleration_x": 0.21072722832722832,
+      "acceleration_y": 0.15325616605616604,
+      "acceleration_z": 9.731766544566543,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081038.0443854,
+      "timestamp_iso": "2025-09-16T20:50:38.044385Z",
+      "acceleration_x": 0.2681982905982906,
+      "acceleration_y": 0.057471062271062266,
+      "acceleration_z": 9.731766544566543,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081038.068086,
+      "timestamp_iso": "2025-09-16T20:50:38.068086Z",
+      "acceleration_x": 0.2490412698412698,
+      "acceleration_y": 0.11494212454212453,
+      "acceleration_z": 9.750923565323564,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081038.0917568,
+      "timestamp_iso": "2025-09-16T20:50:38.091757Z",
+      "acceleration_x": 0.22988424908424906,
+      "acceleration_y": 0.11494212454212453,
+      "acceleration_z": 9.712609523809522,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081038.11543,
+      "timestamp_iso": "2025-09-16T20:50:38.115430Z",
+      "acceleration_x": 0.2490412698412698,
+      "acceleration_y": 0.09578510378510377,
+      "acceleration_z": 9.750923565323564,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081038.1391044,
+      "timestamp_iso": "2025-09-16T20:50:38.139104Z",
+      "acceleration_x": 0.1724131868131868,
+      "acceleration_y": 0.07662808302808302,
+      "acceleration_z": 9.693452503052503,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081038.1627765,
+      "timestamp_iso": "2025-09-16T20:50:38.162776Z",
+      "acceleration_x": 0.2490412698412698,
+      "acceleration_y": 0.09578510378510377,
+      "acceleration_z": 9.214526984126984,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081038.1864421,
+      "timestamp_iso": "2025-09-16T20:50:38.186442Z",
+      "acceleration_x": 0.22988424908424906,
+      "acceleration_y": 0.09578510378510377,
+      "acceleration_z": 9.597667399267397,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081038.210137,
+      "timestamp_iso": "2025-09-16T20:50:38.210137Z",
+      "acceleration_x": 0.2490412698412698,
+      "acceleration_y": 0.11494212454212453,
+      "acceleration_z": 9.712609523809522,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081038.2338073,
+      "timestamp_iso": "2025-09-16T20:50:38.233807Z",
+      "acceleration_x": 0.2681982905982906,
+      "acceleration_y": 0.07662808302808302,
+      "acceleration_z": 9.961650793650792,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081038.257477,
+      "timestamp_iso": "2025-09-16T20:50:38.257477Z",
+      "acceleration_x": 0.21072722832722832,
+      "acceleration_y": 0.09578510378510377,
+      "acceleration_z": 9.808394627594627,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081038.2811465,
+      "timestamp_iso": "2025-09-16T20:50:38.281147Z",
+      "acceleration_x": 0.22988424908424906,
+      "acceleration_y": 0.11494212454212453,
+      "acceleration_z": 9.770080586080585,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081038.3048184,
+      "timestamp_iso": "2025-09-16T20:50:38.304818Z",
+      "acceleration_x": 0.21072722832722832,
+      "acceleration_y": 0.1340991452991453,
+      "acceleration_z": 9.444411233211232,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081038.3285089,
+      "timestamp_iso": "2025-09-16T20:50:38.328509Z",
+      "acceleration_x": 0.22988424908424906,
+      "acceleration_y": 0.15325616605616604,
+      "acceleration_z": 9.674295482295483,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081038.3521814,
+      "timestamp_iso": "2025-09-16T20:50:38.352181Z",
+      "acceleration_x": 0.2681982905982906,
+      "acceleration_y": 0.07662808302808302,
+      "acceleration_z": 9.693452503052503,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081038.3758662,
+      "timestamp_iso": "2025-09-16T20:50:38.375866Z",
+      "acceleration_x": 0.1724131868131868,
+      "acceleration_y": 0.09578510378510377,
+      "acceleration_z": 9.789237606837606,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081038.3995388,
+      "timestamp_iso": "2025-09-16T20:50:38.399539Z",
+      "acceleration_x": 0.21072722832722832,
+      "acceleration_y": 0.07662808302808302,
+      "acceleration_z": 9.750923565323564,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081038.423246,
+      "timestamp_iso": "2025-09-16T20:50:38.423246Z",
+      "acceleration_x": 0.22988424908424906,
+      "acceleration_y": 0.09578510378510377,
+      "acceleration_z": 9.693452503052503,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081038.446937,
+      "timestamp_iso": "2025-09-16T20:50:38.446937Z",
+      "acceleration_x": 0.11494212454212453,
+      "acceleration_y": 0.09578510378510377,
+      "acceleration_z": 9.635981440781439,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081038.4706419,
+      "timestamp_iso": "2025-09-16T20:50:38.470642Z",
+      "acceleration_x": 0.19157020757020754,
+      "acceleration_y": 0.1340991452991453,
+      "acceleration_z": 9.712609523809522,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081038.4943156,
+      "timestamp_iso": "2025-09-16T20:50:38.494316Z",
+      "acceleration_x": 0.3065123321123321,
+      "acceleration_y": 0.07662808302808302,
+      "acceleration_z": 9.425254212454211,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081038.517989,
+      "timestamp_iso": "2025-09-16T20:50:38.517989Z",
+      "acceleration_x": 0.21072722832722832,
+      "acceleration_y": 0.09578510378510377,
+      "acceleration_z": 9.616824420024418,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081038.541662,
+      "timestamp_iso": "2025-09-16T20:50:38.541662Z",
+      "acceleration_x": 0.22988424908424906,
+      "acceleration_y": 0.1340991452991453,
+      "acceleration_z": 9.712609523809522,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081038.565335,
+      "timestamp_iso": "2025-09-16T20:50:38.565335Z",
+      "acceleration_x": 0.4406114774114774,
+      "acceleration_y": 0.1724131868131868,
+      "acceleration_z": 9.482725274725274,
+      "source": "hardware"
+    },
+    {
+      "timestamp": 1758081038.5890896,
+      "timestamp_iso": "2025-09-16T20:50:38.589090Z",
+      "acceleration_x": 0.3065123321123321,
+      "acceleration_y": 0.1340991452991453,
+      "acceleration_z": 9.674295482295483,
+      "source": "hardware"
+    }
+  ]
+}
